@@ -1,0 +1,28 @@
+<style>
+@font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-roman.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+/* Texto de la guía con la estética de marionomics.com (Computer Modern) */
+.retype-markdown { font-family: "CMU Serif", Georgia, "Times New Roman", serif; font-size: 1.125rem; line-height: 1.6; letter-spacing: -0.01rem; }
+.retype-markdown h1, .retype-markdown h2, .retype-markdown h3 { font-family: "CMU Serif", Georgia, serif; letter-spacing: -0.02rem; }
+.retype-markdown pre code { white-space: pre-wrap; word-break: break-word; }
+.retype-markdown table { font-size: 0.95rem; }
+.retype-markdown pre, .retype-markdown code { font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
+
+/* Formularios de correo (Notifuse) */
+.mx-form { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .75rem; }
+.mx-form input[type=email] { flex: 1 1 14rem; min-width: 0; padding: .6rem .8rem; border: 1px solid #cfcfcf; border-radius: .5rem; font: inherit; font-size: 1rem; background: #fff; color: #1a1a1a; }
+.mx-form button { padding: .6rem 1.1rem; border: 0; border-radius: .5rem; background: #1a1a1a; color: #fff; font: inherit; font-size: 1rem; cursor: pointer; }
+.mx-form button[disabled] { opacity: .6; cursor: default; }
+.mx-msg { margin-top: .5rem; font-size: .95rem; }
+
+/* Aviso flotante (nudge) */
+#mx-nudge { position: fixed; right: 1rem; bottom: 1rem; z-index: 60; width: min(24rem, calc(100vw - 2rem)); background: #fff; color: #1a1a1a; border: 1px solid #e2e2e2; border-radius: .75rem; box-shadow: 0 10px 30px rgba(0,0,0,.12); padding: 1rem 1.1rem; font-family: "CMU Serif", Georgia, serif; font-size: 1.05rem; line-height: 1.45; display: none; }
+#mx-nudge.show { display: block; }
+#mx-nudge h4 { margin: 0 1.5rem .35rem 0; font-size: 1.15rem; font-weight: 700; }
+#mx-nudge p { margin: 0; }
+#mx-nudge .mx-close { position: absolute; top: .45rem; right: .6rem; border: 0; background: none; font-size: 1.4rem; line-height: 1; cursor: pointer; color: #777; }
+.dark #mx-nudge { background: #1f2128; color: #eee; border-color: #333; }
+@media print { #mx-nudge { display: none !important; } }
+</style>

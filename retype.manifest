@@ -1,0 +1,234 @@
+{
+  "version": "4.6.0",
+  "created": "2026-11-10T22:05:33Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "bonus/aprende-lo-que-quieras.md"
+    },
+    {
+      "path": "bonus/aprende-lo-que-quieras/index.html"
+    },
+    {
+      "path": "bonus/checklist.md"
+    },
+    {
+      "path": "bonus/checklist/index.html"
+    },
+    {
+      "path": "bonus/cual-es-la-mejor-ia.md"
+    },
+    {
+      "path": "bonus/cual-es-la-mejor-ia/index.html"
+    },
+    {
+      "path": "bonus/declaracion-de-uso.md"
+    },
+    {
+      "path": "bonus/declaracion-de-uso/index.html"
+    },
+    {
+      "path": "bonus/imagenes.md"
+    },
+    {
+      "path": "bonus/imagenes/index.html"
+    },
+    {
+      "path": "bonus/index.html"
+    },
+    {
+      "path": "bonus/index.md"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "como-funciona-la-ia.md"
+    },
+    {
+      "path": "como-funciona-la-ia/index.html"
+    },
+    {
+      "path": "flujos/flujo-1.md"
+    },
+    {
+      "path": "flujos/flujo-1/index.html"
+    },
+    {
+      "path": "flujos/flujo-2.md"
+    },
+    {
+      "path": "flujos/flujo-2/index.html"
+    },
+    {
+      "path": "flujos/flujo-3.md"
+    },
+    {
+      "path": "flujos/flujo-3/index.html"
+    },
+    {
+      "path": "flujos/flujo-4.md"
+    },
+    {
+      "path": "flujos/flujo-4/index.html"
+    },
+    {
+      "path": "flujos/flujo-5.md"
+    },
+    {
+      "path": "flujos/flujo-5/index.html"
+    },
+    {
+      "path": "flujos/flujo-6.md"
+    },
+    {
+      "path": "flujos/flujo-6/index.html"
+    },
+    {
+      "path": "flujos/flujo-7.md"
+    },
+    {
+      "path": "flujos/flujo-7/index.html"
+    },
+    {
+      "path": "flujos/flujo-8.md"
+    },
+    {
+      "path": "flujos/flujo-8/index.html"
+    },
+    {
+      "path": "flujos/index.html"
+    },
+    {
+      "path": "flujos/index.md"
+    },
+    {
+      "path": "glosario.md"
+    },
+    {
+      "path": "glosario/index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "index.md"
+    },
+    {
+      "path": "llms.txt"
+    },
+    {
+      "path": "mapa.md"
+    },
+    {
+      "path": "mapa/index.html"
+    },
+    {
+      "path": "para-saber-mas/12-ideas.md"
+    },
+    {
+      "path": "para-saber-mas/12-ideas/index.html"
+    },
+    {
+      "path": "para-saber-mas/index.html"
+    },
+    {
+      "path": "para-saber-mas/index.md"
+    },
+    {
+      "path": "para-saber-mas/que-puede-hacer-hoy.md"
+    },
+    {
+      "path": "para-saber-mas/que-puede-hacer-hoy/index.html"
+    },
+    {
+      "path": "por-que-investigamos.md"
+    },
+    {
+      "path": "por-que-investigamos/index.html"
+    },
+    {
+      "path": "que-es-recomendable.md"
+    },
+    {
+      "path": "que-es-recomendable/index.html"
+    },
+    {
+      "path": "referencias.md"
+    },
+    {
+      "path": "referencias/index.html"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/instagram.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/prism.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml"
+    },
+    {
+      "path": "static/fonts/cmu-serif-500-italic.woff2"
+    },
+    {
+      "path": "static/fonts/cmu-serif-500-roman.woff2"
+    },
+    {
+      "path": "static/fonts/cmu-serif-700-italic.woff2"
+    },
+    {
+      "path": "static/fonts/cmu-serif-700-roman.woff2"
+    },
+    {
+      "path": "unirme.md"
+    },
+    {
+      "path": "unirme/index.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+input: .
+output: .retype
+url: ia.marionomics.com
+
+branding:
+  title: IA aplicada a la investigación
+  label: Taller
+
+locale: es
+
+meta:
+  title: " | IA aplicada a la investigación · Marionomics"
+  siteName: Marionomics
+
+links:
+  - text: Marionomics
+    link: https://marionomics.com
+  - text: Comunidad Economista Full Stack
+    link: https://www.skool.com/economista-full-stack-6510
+
+footer:
+  copyright: "© {{ year }} Dr. Mario A. García Meza · [Marionomics](https://marionomics.com)"
+
+search:
+  placeholder: Buscar en la guía
+  noResultsFoundMsg: "No encontré resultados. Intenta con otra palabra."
+
+integrations:
+  googleTagManager:
+    id: GTM-5WJS5ZWD
+
+exclude:
+  - "README.md"
