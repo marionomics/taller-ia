@@ -2,7 +2,7 @@
   <button class="mx-close" type="button" aria-label="Cerrar">&times;</button>
   <h4>Llévate el taller a tu correo</h4>
   <p>Una serie corta de correos con los <i>prompts</i>, la checklist y recursos extra para tu investigación.</p>
-  <form class="mx-form" data-list="taller-ia">
+  <form class="mx-form" data-list="talleria">
     <input type="email" name="email" placeholder="tu@correo.com" required autocomplete="email">
     <button type="submit">Enviar</button>
   </form>
@@ -34,7 +34,7 @@
     var btn = form.querySelector("button");
     var msg = form.parentNode.querySelector(".mx-msg");
     btn.disabled = true;
-    subscribe(email, form.getAttribute("data-list") || "taller-ia").then(function () {
+    subscribe(email, form.getAttribute("data-list") || "talleria").then(function () {
       if (msg) msg.textContent = "¡Listo! Revisa tu correo para confirmar tu suscripción.";
       form.style.display = "none";
       store("mx-subscribed", "1");

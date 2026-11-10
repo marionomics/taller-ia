@@ -22,6 +22,6 @@ La investigación sigue un método, paso por paso. A veces tendrás que regresar
 !!!base Llévate el taller a tu correo
 Una serie corta de correos con los *prompts*, la checklist y recursos extra para tu investigación.
 
-<form class="mx-form" data-list="taller-ia"><input type="email" name="email" placeholder="tu@correo.com" required autocomplete="email"><button type="submit">Enviar</button></form>
+<form class="mx-form" data-list="talleria"><input type="email" name="email" placeholder="tu@correo.com" required autocomplete="email"><button type="submit">Enviar</button></form>
 <div class="mx-msg" aria-live="polite"></div>
 !!!
