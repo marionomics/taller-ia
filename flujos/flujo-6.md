@@ -35,8 +35,7 @@ Reglas:
 
 La regla 3 es la más importante: un agente sin pausas te entrega un resultado terminado que no tienes forma de revisar.
 
-!!!secondary Para saber más (opcional): Lo que la IA ya puede hacer en ciencias sociales
-Puedes saltarte este recuadro sin perder el hilo.
+!!!secondary Para saber más: Lo que la IA ya puede hacer en ciencias sociales
 
 - **Reproducir artículos.** Con los datos y el código originales, agentes como Claude Code y Codex reprodujeron gran parte de los resultados de 54 artículos de ciencias sociales ([Alizadeh et al., 2026](https://arxiv.org/html/2606.11447)). Con solo el texto de métodos y los datos, sin el código, también los recuperaron en muchos casos ([Kohler et al., 2026](https://arxiv.org/html/2604.21965v2)). Y ya hay una prueba a ciegas de un agente que detecta errores sembrados en paquetes de replicación de economía ([Zhang y Zhu, 2026](https://www.sciencedirect.com/science/article/abs/pii/S0165176526004623)).
 - **Predecir experimentos.** En 70 experimentos de encuesta en EE. UU., las predicciones de GPT-4 se correlacionaron fuertemente con los efectos reales, con precisión similar a la de pronósticos humanos, aunque sobreestimó el tamaño de los efectos ([Hewitt, Ashokkumar et al., Nature](https://www.gsb.stanford.edu/faculty-research/publications/large-language-models-can-predict-results-social-science-experiments)).

@@ -15,7 +15,7 @@
 
 ## Manos a la obra
 
-- [Flujo 1. Vacía tus ideas a la IA](https://ia.marionomics.com/flujos/flujo-1.md): El error #1 de cualquier tesis es abrir un Word en blanco y esperar a que lleguen las ideas. Mejor: habla. Graba una nota de voz (o dicta en el chat) durante 5 a 10 minutos sobre lo que observaste, sin cuidar la forma.
+- [Flujo 1. Vacía tus ideas a la IA](https://ia.marionomics.com/flujos/flujo-1.md): Para qué sirve: pasar de "tengo algo en la cabeza, pero no sé qué es" a un borrador ordenado de tu problema de investigación, escrito con tus palabras. Tiempo: 20 minutos.
 - [Flujo 2. La máquina de generación infinita de ideas de investigación](https://ia.marionomics.com/flujos/flujo-2.md): Dos mitos: que necesitas un tema totalmente novedoso y que solo los genios creativos investigan. La ciencia avanza en pasos incrementales, y la pasión se crea trabajando.
 - [Flujo 3. Un protocolo de cinco preguntas](https://ia.marionomics.com/flujos/flujo-3.md): El plan que me enseñó mi profesor de metodología del doctorado cabe en una cuartilla:
 - [Flujo 4. Bibliografía y marco teórico a prueba de balas](https://ia.marionomics.com/flujos/flujo-4.md): Si le pides "bibliografía sobre mi tema", en el mejor caso te dará una lista genérica; en el peor, inventada. Para una buena lista necesitas tres cosas: el objetivo de tu investigación, tu argumento y sus posibles contraargumentos.
