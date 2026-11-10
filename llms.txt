@@ -1,0 +1,38 @@
+﻿# Marionomics
+
+> Guía del curso-taller · Dr. Mario A. García Meza · Marionomics
+
+- [IA aplicada a la investigación científica](https://ia.marionomics.com/index.md): IA aplicada a la investigación científica
+- [Cómo funciona la IA (lo mínimo para usarla bien)](https://ia.marionomics.com/como-funciona-la-ia.md): ChatGPT, Gemini y Claude son modelos de lenguaje: modelos estadísticos entrenados con casi todo lo que la humanidad ha escrito, que predicen cuál es la siguiente palabra más probable.
+- [Por qué seguimos investigando](https://ia.marionomics.com/por-que-investigamos.md): La IA ya supera a la mayoría de nosotros en muchas tareas de investigación. Aun así, no recomiendo delegarle el pensar. Estas son las cuatro ideas que sostienen todo el taller.
+- [Qué es recomendable y qué no](https://ia.marionomics.com/que-es-recomendable.md): Antes de usar en tu investigación algo hecho con IA, te recomiendo pasarlo por dos pruebas. Lo demás se deriva de ellas.
+- [Manos a la obra: ocho flujos de trabajo](https://ia.marionomics.com/flujos/index.md): Un flujo de trabajo es una receta paso a paso para resolver una tarea concreta de tu investigación: qué preparas tú antes, qué prompt le das a la IA y cómo revisas lo que te entrega.
+- [El mapa: cada paso de la investigación, ¿con IA?](https://ia.marionomics.com/mapa.md): De 27 pasos de una investigación empírica, 11 se pueden delegar con auditoría, 7 admiten a la IA como asistente o crítico y 9 son solo tuyos. La columna "Cómo auditarlo" es la que convierte un paso delegado en un paso aceptable.
+- [Bonus](https://ia.marionomics.com/bonus/index.md)
+- [Para saber más](https://ia.marionomics.com/para-saber-mas/index.md): Contexto y evidencia para quien quiera profundizar. No hace falta leerlo para hacer los flujos.
+- [Glosario](https://ia.marionomics.com/glosario.md): Los términos de esta guía que van más allá del vocabulario cotidiano.
+- [Referencias](https://ia.marionomics.com/referencias.md): Sobre IA en la investigación (2023-2026)
+
+## Manos a la obra
+
+- [Flujo 1. Vacía tus ideas a la IA](https://ia.marionomics.com/flujos/flujo-1.md): El error #1 de cualquier tesis es abrir un Word en blanco y esperar a que lleguen las ideas. Mejor: habla. Graba una nota de voz (o dicta en el chat) durante 5 a 10 minutos sobre lo que observaste, sin cuidar la forma.
+- [Flujo 2. La máquina de generación infinita de ideas de investigación](https://ia.marionomics.com/flujos/flujo-2.md): Dos mitos: que necesitas un tema totalmente novedoso y que solo los genios creativos investigan. La ciencia avanza en pasos incrementales, y la pasión se crea trabajando.
+- [Flujo 3. Un protocolo de cinco preguntas](https://ia.marionomics.com/flujos/flujo-3.md): El plan que me enseñó mi profesor de metodología del doctorado cabe en una cuartilla:
+- [Flujo 4. Bibliografía y marco teórico a prueba de balas](https://ia.marionomics.com/flujos/flujo-4.md): Si le pides "bibliografía sobre mi tema", en el mejor caso te dará una lista genérica; en el peor, inventada. Para una buena lista necesitas tres cosas: el objetivo de tu investigación, tu argumento y sus posibles contraargumentos.
+- [Flujo 5. Diseño de instrumento](https://ia.marionomics.com/flujos/flujo-5.md): Garbage in, garbage out: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.
+- [Flujo 6. Datos y econometría con agentes](https://ia.marionomics.com/flujos/flujo-6.md): Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores.
+- [Flujo 7. Artefactos: formularios, tableros y laboratorios](https://ia.marionomics.com/flujos/flujo-7.md): La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:
+- [Flujo 8. La IA como revisor, no como autor](https://ia.marionomics.com/flujos/flujo-8.md): Como te va a dar la razón por default, pídele explícitamente que te contradiga.
+
+## Bonus
+
+- [¿Cuál es la mejor IA para mi investigación?](https://ia.marionomics.com/bonus/cual-es-la-mejor-ia.md): Don't you call me a mindless philosopher, you overweight glob of grease — C-3PO a R2-D2
+- [Aprende lo que quieras, como tú quieras](https://ia.marionomics.com/bonus/aprende-lo-que-quieras.md): Neo: I know kung fu. Morpheus: Show me. — The Matrix (1999)
+- [Imágenes estilo Marionomics (para divulgación)](https://ia.marionomics.com/bonus/imagenes.md): Todas las ilustraciones de mi newsletter las hago con IA, y lo digo abiertamente. Para tu tesis, no te lo recomiendo: una imagen generada no aporta evidencia y le resta credibilidad.
+- [Plantilla de declaración de uso de IA](https://ia.marionomics.com/bonus/declaracion-de-uso.md): Inclúyela al final de tu tesis, artículo o trabajo:
+- [Checklist antes de entregar](https://ia.marionomics.com/bonus/checklist.md): Cada referencia existe, la abrí y dice lo que digo que dice.
+
+## Para saber más
+
+- [Qué puede hacer hoy la ia (y qué no)](https://ia.marionomics.com/para-saber-mas/que-puede-hacer-hoy.md): No necesitas estar al día en noticias de IA para tomar este taller. Esta parte resume, con la evidencia más reciente (noviembre de 2026), lo que hoy la IA puede hacer por tu investigación y lo que todavía hace mal.
+- [12 ideas clave frente a la evidencia](https://ia.marionomics.com/para-saber-mas/12-ideas.md): De 12 ideas clave sobre la IA en la investigación, 9 se sostienen con la evidencia de 2023-2026, 1 se matiza y 2 hay que actualizarlas.

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+<head>
+    <script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5WJS5ZWD');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847666181266">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Glosario | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
+    <meta name="title" content="Glosario | IA aplicada a la investigación · Marionomics">
+    <meta name="description" content="Los términos de esta guía que van más allá del vocabulario cotidiano.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://ia.marionomics.com/glosario/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://ia.marionomics.com/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ia.marionomics.com/glosario/">
+    <meta property="og:title" content="Glosario | IA aplicada a la investigación · Marionomics">
+    <meta property="og:description" content="Los términos de esta guía que van más allá del vocabulario cotidiano.">
+    <meta property="og:site_name" content="Marionomics">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ia.marionomics.com/glosario/">
+    <meta name="twitter:title" content="Glosario | IA aplicada a la investigación · Marionomics">
+    <meta name="twitter:description" content="Los términos de esta guía que van más allá del vocabulario cotidiano.">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/glosario.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../resources/css/retype.css?v=4.6.0.847666181266" rel="stylesheet">
+
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.847666181266" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.847666181266" data-turbo-eval="false" defer></script>
+
+    <style>
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-roman.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+    /* Texto de la guía con la estética de marionomics.com (Computer Modern) */
+    .retype-markdown { font-family: "CMU Serif", Georgia, "Times New Roman", serif; font-size: 1.125rem; line-height: 1.6; letter-spacing: -0.01rem; }
+    .retype-markdown h1, .retype-markdown h2, .retype-markdown h3 { font-family: "CMU Serif", Georgia, serif; letter-spacing: -0.02rem; }
+    .retype-markdown pre code { white-space: pre-wrap; word-break: break-word; }
+    .retype-markdown table { font-size: 0.95rem; }
+    .retype-markdown pre, .retype-markdown code { font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
+
+    /* Formularios de correo (Notifuse) */
+    .mx-form { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .75rem; }
+    .mx-form input[type=email] { flex: 1 1 14rem; min-width: 0; padding: .6rem .8rem; border: 1px solid #cfcfcf; border-radius: .5rem; font: inherit; font-size: 1rem; background: #fff; color: #1a1a1a; }
+    .mx-form button { padding: .6rem 1.1rem; border: 0; border-radius: .5rem; background: #1a1a1a; color: #fff; font: inherit; font-size: 1rem; cursor: pointer; }
+    .mx-form button[disabled] { opacity: .6; cursor: default; }
+    .mx-msg { margin-top: .5rem; font-size: .95rem; }
+
+    /* Aviso flotante (nudge) */
+    #mx-nudge { position: fixed; right: 1rem; bottom: 1rem; z-index: 60; width: min(24rem, calc(100vw - 2rem)); background: #fff; color: #1a1a1a; border: 1px solid #e2e2e2; border-radius: .75rem; box-shadow: 0 10px 30px rgba(0,0,0,.12); padding: 1rem 1.1rem; font-family: "CMU Serif", Georgia, serif; font-size: 1.05rem; line-height: 1.45; display: none; }
+    #mx-nudge.show { display: block; }
+    #mx-nudge h4 { margin: 0 1.5rem .35rem 0; font-size: 1.15rem; font-weight: 700; }
+    #mx-nudge p { margin: 0; }
+    #mx-nudge .mx-close { position: absolute; top: .45rem; right: .6rem; border: 0; background: none; font-size: 1.4rem; line-height: 1; cursor: pointer; color: #777; }
+    .dark #mx-nudge { background: #1f2128; color: #eee; border-color: #333; }
+    @media print { #mx-nudge { display: none !important; } }
+    </style>
+
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WJS5ZWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://ia.marionomics.com/" class="flex items-center leading-snug text-xl">
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">IA aplicada a la investigación</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Taller</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://marionomics.com">Marionomics</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.skool.com/economista-full-stack-6510">Comunidad Economista Full Stack</a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+            <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                    <span class="text-xs whitespace-nowrap">Powered by</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://marionomics.com">Marionomics</a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.skool.com/economista-full-stack-6510">Comunidad Economista Full Stack</a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+<h1 id="glosario">Glosario</h1>
+<p>Los términos de esta guía que van más allá del vocabulario cotidiano.</p>
+<retype-table copy-text="| Término | Qué significa |
+| --- | --- |
+| Agente (de IA) | Un sistema de IA que no solo responde: planea una tarea de varios pasos y usa herramientas (navegador, Python, R, archivos) para ejecutarla por su cuenta. Ejemplos: Claude Code, Codex, Gemini CLI. |
+| Alucinación | Cuando la IA inventa algo con total seguridad: una cita, un dato, un artículo que no existe. Ocurre porque predice texto probable, no consulta una base de datos. |
+| API | La &quot;puerta&quot; por la que un programa usa un modelo de IA sin pasar por el chat. Muchas herramientas &quot;especializadas&quot; son una interfaz encima de la API de algún modelo grande. |
+| APA | Formato de citas y referencias de la Asociación Americana de Psicología, el más usado en ciencias sociales. |
+| arXiv | Repositorio público donde los investigadores suben artículos antes de que pasen por revisión de pares (ver *preprint*). |
+| Auditable | Que otra persona puede rastrear cómo se llegó a un resultado: con qué datos, qué código y qué fuentes. |
+| Colab (Google Colab) | Un cuaderno de Python que corre en el navegador, sin instalar nada. Mezcla texto, código y resultados. |
+| Complacencia (*sycophancy*) | La tendencia de los modelos de IA a darte la razón y decirte lo que quieres oír, porque se entrenaron con calificaciones de personas que prefieren que les den la razón. |
+| Confiabilidad (de un instrumento) | Que un cuestionario mida lo mismo de forma consistente: si lo aplicas dos veces en condiciones iguales, da resultados parecidos. |
+| Declaración de Leiden | Documento de 2026 firmado por matemáticos y respaldado por la Unión Matemática Internacional, con recomendaciones para usar la IA en investigación de forma transparente y responsable. |
+| Demostración (matemática) | El argumento lógico, paso por paso, que prueba que un enunciado es verdadero. Es el &quot;resultado&quot; de una investigación en matemáticas. |
+| Diseño de mecanismos | Rama de la economía que diseña reglas (de votación, subastas, asignación) para que las decisiones individuales lleven al resultado que se busca. |
+| DOI | Identificador único y permanente de un artículo científico (p. ej. 10.3386/w34202). Sirve para encontrarlo y comprobar que existe. |
+| Endogeneidad | Cuando una variable explicativa está relacionada con factores que el modelo no incluye, y por eso el coeficiente estimado no refleja el efecto verdadero. |
+| Errores estándar | La medida de qué tan precisa es una estimación. Con ellos se calculan los intervalos de confianza y los valores p. |
+| Escala de Likert | Pregunta donde la persona elige su grado de acuerdo, por ejemplo de &quot;nada de acuerdo&quot; a &quot;completamente de acuerdo&quot;. |
+| Estadística descriptiva | Los resúmenes básicos de los datos (promedios, mínimos, máximos, conteos) antes de cualquier modelo. |
+| Estrategia de identificación | El argumento de por qué tu diseño permite afirmar que X causa Y, y no solo que se mueven juntos. |
+| Experimento de encuesta | Un estudio donde a grupos al azar se les muestra una versión distinta de un mensaje o pregunta, para medir el efecto de esa diferencia. |
+| Efecto de tratamiento | La diferencia en un resultado que se debe a una intervención (un mensaje, un programa, una política). |
+| Encuestados sintéticos (*silicon samples*) | Respuestas a una encuesta generadas por IA que &quot;finge&quot; ser personas con ciertas características. Sirven para pilotear, no como datos. |
+| ENOE | Encuesta Nacional de Ocupación y Empleo del INEGI, la fuente principal sobre empleo en México. |
+| Especificación (del modelo) | La decisión de qué variables entran en un modelo, en qué forma y con qué supuestos. |
+| Google Apps Script | Lenguaje para automatizar Google Sheets, Forms y Gmail con pequeños programas (p. ej. crear un formulario o enviar correos). |
+| Hipótesis | La respuesta tentativa a tu pregunta de investigación, que el estudio va a poner a prueba. |
+| Impuesto pigouviano | Un impuesto a una actividad que daña a terceros (como contaminar o el consumo de azúcar), para que su precio refleje ese daño. |
+| Investigación profunda (*Deep Research*) | Un modo de los chats de IA que busca en cientos de fuentes durante varios minutos y entrega un reporte con referencias. |
+| Lean | Un lenguaje en el que una computadora puede verificar, paso por paso, que una demostración matemática es correcta. |
+| Marco teórico | La sección de una tesis que define los conceptos, explica las teorías que sostienen tu hipótesis y las contrasta con las alternativas. |
+| Modelo de lenguaje (LLM) | El tipo de IA detrás de ChatGPT, Gemini o Claude: un modelo estadístico entrenado con enormes cantidades de texto para predecir la siguiente palabra. |
+| Modelo de razonamiento | Un modelo de lenguaje que &quot;piensa&quot; varios pasos antes de responder. Es más lento, pero mejor en tareas complejas. |
+| Multicolinealidad | Cuando dos o más variables explicativas están muy relacionadas entre sí, y el modelo no puede separar bien el efecto de cada una. |
+| NeurIPS | Una de las conferencias científicas más prestigiosas en inteligencia artificial. |
+| NotebookLM | Herramienta de Google que trabaja solo con los documentos que le subes: los resume, genera audios, mapas mentales y tarjetas de estudio. |
+| Piloto | Una aplicación de prueba de un cuestionario con pocas personas reales, para corregirlo antes del levantamiento completo. |
+| *Preprint* / *working paper* | Un artículo que el autor hace público antes de que pase por revisión de pares. Puede cambiar o tener errores. |
+| Problemas del Milenio | Siete problemas matemáticos famosos por su dificultad. El Instituto Clay ofrece un millón de dólares por resolver cada uno. |
+| *Prompt* | La instrucción o pregunta que le escribes a una IA. |
+| Protocolo de investigación | El plan breve de una investigación: problema, justificación, objetivos, preguntas e hipótesis. |
+| Replicación / reproducción | Reproducir es obtener los mismos resultados con los mismos datos y código. Replicar es repetir el estudio con datos nuevos para ver si el hallazgo se sostiene. |
+| Paquete de replicación | Los datos, el código y las instrucciones que acompañan a un artículo para que cualquiera pueda reproducir sus resultados. |
+| Revisión por pares | El proceso en que otros investigadores evalúan un artículo antes de publicarlo en una revista. |
+| Robustez (pruebas de) | Volver a estimar un resultado con variantes (otras variables, otra muestra, otro método) para ver si se sostiene. |
+| Script reproducible | Un archivo de código que, corrido de principio a fin, produce todos los resultados sin pasos manuales. |
+| Sesgo de deseabilidad social | La tendencia de las personas a responder lo que &quot;queda bien&quot; en lugar de lo que realmente hacen o piensan. |
+| Sesgo por variable omitida | Error en una estimación porque falta en el modelo una variable que influye tanto en X como en Y. |
+| SNII | Sistema Nacional de Investigadoras e Investigadores de México, que reconoce y clasifica por niveles a quienes investigan. |
+| Transformer | La arquitectura de red neuronal, presentada en 2017, en la que se basan los modelos de lenguaje actuales. |
+| Validez (de un instrumento) | Que un cuestionario mida realmente lo que dice medir. |
+| *Workslop* | Trabajo hecho con IA que parece pulido pero no aporta nada, y obliga a otros a corregirlo o rehacerlo. |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Término</th>
+<th>Qué significa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agente (de IA)</td>
+<td>Un sistema de IA que no solo responde: planea una tarea de varios pasos y usa herramientas (navegador, Python, R, archivos) para ejecutarla por su cuenta. Ejemplos: Claude Code, Codex, Gemini CLI.</td>
+</tr>
+<tr>
+<td>Alucinación</td>
+<td>Cuando la IA inventa algo con total seguridad: una cita, un dato, un artículo que no existe. Ocurre porque predice texto probable, no consulta una base de datos.</td>
+</tr>
+<tr>
+<td>API</td>
+<td>La &quot;puerta&quot; por la que un programa usa un modelo de IA sin pasar por el chat. Muchas herramientas &quot;especializadas&quot; son una interfaz encima de la API de algún modelo grande.</td>
+</tr>
+<tr>
+<td>APA</td>
+<td>Formato de citas y referencias de la Asociación Americana de Psicología, el más usado en ciencias sociales.</td>
+</tr>
+<tr>
+<td>arXiv</td>
+<td>Repositorio público donde los investigadores suben artículos antes de que pasen por revisión de pares (ver <em>preprint</em>).</td>
+</tr>
+<tr>
+<td>Auditable</td>
+<td>Que otra persona puede rastrear cómo se llegó a un resultado: con qué datos, qué código y qué fuentes.</td>
+</tr>
+<tr>
+<td>Colab (Google Colab)</td>
+<td>Un cuaderno de Python que corre en el navegador, sin instalar nada. Mezcla texto, código y resultados.</td>
+</tr>
+<tr>
+<td>Complacencia (<em>sycophancy</em>)</td>
+<td>La tendencia de los modelos de IA a darte la razón y decirte lo que quieres oír, porque se entrenaron con calificaciones de personas que prefieren que les den la razón.</td>
+</tr>
+<tr>
+<td>Confiabilidad (de un instrumento)</td>
+<td>Que un cuestionario mida lo mismo de forma consistente: si lo aplicas dos veces en condiciones iguales, da resultados parecidos.</td>
+</tr>
+<tr>
+<td>Declaración de Leiden</td>
+<td>Documento de 2026 firmado por matemáticos y respaldado por la Unión Matemática Internacional, con recomendaciones para usar la IA en investigación de forma transparente y responsable.</td>
+</tr>
+<tr>
+<td>Demostración (matemática)</td>
+<td>El argumento lógico, paso por paso, que prueba que un enunciado es verdadero. Es el &quot;resultado&quot; de una investigación en matemáticas.</td>
+</tr>
+<tr>
+<td>Diseño de mecanismos</td>
+<td>Rama de la economía que diseña reglas (de votación, subastas, asignación) para que las decisiones individuales lleven al resultado que se busca.</td>
+</tr>
+<tr>
+<td>DOI</td>
+<td>Identificador único y permanente de un artículo científico (p. ej. 10.3386/w34202). Sirve para encontrarlo y comprobar que existe.</td>
+</tr>
+<tr>
+<td>Endogeneidad</td>
+<td>Cuando una variable explicativa está relacionada con factores que el modelo no incluye, y por eso el coeficiente estimado no refleja el efecto verdadero.</td>
+</tr>
+<tr>
+<td>Errores estándar</td>
+<td>La medida de qué tan precisa es una estimación. Con ellos se calculan los intervalos de confianza y los valores p.</td>
+</tr>
+<tr>
+<td>Escala de Likert</td>
+<td>Pregunta donde la persona elige su grado de acuerdo, por ejemplo de &quot;nada de acuerdo&quot; a &quot;completamente de acuerdo&quot;.</td>
+</tr>
+<tr>
+<td>Estadística descriptiva</td>
+<td>Los resúmenes básicos de los datos (promedios, mínimos, máximos, conteos) antes de cualquier modelo.</td>
+</tr>
+<tr>
+<td>Estrategia de identificación</td>
+<td>El argumento de por qué tu diseño permite afirmar que X causa Y, y no solo que se mueven juntos.</td>
+</tr>
+<tr>
+<td>Experimento de encuesta</td>
+<td>Un estudio donde a grupos al azar se les muestra una versión distinta de un mensaje o pregunta, para medir el efecto de esa diferencia.</td>
+</tr>
+<tr>
+<td>Efecto de tratamiento</td>
+<td>La diferencia en un resultado que se debe a una intervención (un mensaje, un programa, una política).</td>
+</tr>
+<tr>
+<td>Encuestados sintéticos (<em>silicon samples</em>)</td>
+<td>Respuestas a una encuesta generadas por IA que &quot;finge&quot; ser personas con ciertas características. Sirven para pilotear, no como datos.</td>
+</tr>
+<tr>
+<td>ENOE</td>
+<td>Encuesta Nacional de Ocupación y Empleo del INEGI, la fuente principal sobre empleo en México.</td>
+</tr>
+<tr>
+<td>Especificación (del modelo)</td>
+<td>La decisión de qué variables entran en un modelo, en qué forma y con qué supuestos.</td>
+</tr>
+<tr>
+<td>Google Apps Script</td>
+<td>Lenguaje para automatizar Google Sheets, Forms y Gmail con pequeños programas (p. ej. crear un formulario o enviar correos).</td>
+</tr>
+<tr>
+<td>Hipótesis</td>
+<td>La respuesta tentativa a tu pregunta de investigación, que el estudio va a poner a prueba.</td>
+</tr>
+<tr>
+<td>Impuesto pigouviano</td>
+<td>Un impuesto a una actividad que daña a terceros (como contaminar o el consumo de azúcar), para que su precio refleje ese daño.</td>
+</tr>
+<tr>
+<td>Investigación profunda (<em>Deep Research</em>)</td>
+<td>Un modo de los chats de IA que busca en cientos de fuentes durante varios minutos y entrega un reporte con referencias.</td>
+</tr>
+<tr>
+<td>Lean</td>
+<td>Un lenguaje en el que una computadora puede verificar, paso por paso, que una demostración matemática es correcta.</td>
+</tr>
+<tr>
+<td>Marco teórico</td>
+<td>La sección de una tesis que define los conceptos, explica las teorías que sostienen tu hipótesis y las contrasta con las alternativas.</td>
+</tr>
+<tr>
+<td>Modelo de lenguaje (LLM)</td>
+<td>El tipo de IA detrás de ChatGPT, Gemini o Claude: un modelo estadístico entrenado con enormes cantidades de texto para predecir la siguiente palabra.</td>
+</tr>
+<tr>
+<td>Modelo de razonamiento</td>
+<td>Un modelo de lenguaje que &quot;piensa&quot; varios pasos antes de responder. Es más lento, pero mejor en tareas complejas.</td>
+</tr>
+<tr>
+<td>Multicolinealidad</td>
+<td>Cuando dos o más variables explicativas están muy relacionadas entre sí, y el modelo no puede separar bien el efecto de cada una.</td>
+</tr>
+<tr>
+<td>NeurIPS</td>
+<td>Una de las conferencias científicas más prestigiosas en inteligencia artificial.</td>
+</tr>
+<tr>
+<td>NotebookLM</td>
+<td>Herramienta de Google que trabaja solo con los documentos que le subes: los resume, genera audios, mapas mentales y tarjetas de estudio.</td>
+</tr>
+<tr>
+<td>Piloto</td>
+<td>Una aplicación de prueba de un cuestionario con pocas personas reales, para corregirlo antes del levantamiento completo.</td>
+</tr>
+<tr>
+<td><em>Preprint</em> / <em>working paper</em></td>
+<td>Un artículo que el autor hace público antes de que pase por revisión de pares. Puede cambiar o tener errores.</td>
+</tr>
+<tr>
+<td>Problemas del Milenio</td>
+<td>Siete problemas matemáticos famosos por su dificultad. El Instituto Clay ofrece un millón de dólares por resolver cada uno.</td>
+</tr>
+<tr>
+<td><em>Prompt</em></td>
+<td>La instrucción o pregunta que le escribes a una IA.</td>
+</tr>
+<tr>
+<td>Protocolo de investigación</td>
+<td>El plan breve de una investigación: problema, justificación, objetivos, preguntas e hipótesis.</td>
+</tr>
+<tr>
+<td>Replicación / reproducción</td>
+<td>Reproducir es obtener los mismos resultados con los mismos datos y código. Replicar es repetir el estudio con datos nuevos para ver si el hallazgo se sostiene.</td>
+</tr>
+<tr>
+<td>Paquete de replicación</td>
+<td>Los datos, el código y las instrucciones que acompañan a un artículo para que cualquiera pueda reproducir sus resultados.</td>
+</tr>
+<tr>
+<td>Revisión por pares</td>
+<td>El proceso en que otros investigadores evalúan un artículo antes de publicarlo en una revista.</td>
+</tr>
+<tr>
+<td>Robustez (pruebas de)</td>
+<td>Volver a estimar un resultado con variantes (otras variables, otra muestra, otro método) para ver si se sostiene.</td>
+</tr>
+<tr>
+<td>Script reproducible</td>
+<td>Un archivo de código que, corrido de principio a fin, produce todos los resultados sin pasos manuales.</td>
+</tr>
+<tr>
+<td>Sesgo de deseabilidad social</td>
+<td>La tendencia de las personas a responder lo que &quot;queda bien&quot; en lugar de lo que realmente hacen o piensan.</td>
+</tr>
+<tr>
+<td>Sesgo por variable omitida</td>
+<td>Error en una estimación porque falta en el modelo una variable que influye tanto en X como en Y.</td>
+</tr>
+<tr>
+<td>SNII</td>
+<td>Sistema Nacional de Investigadoras e Investigadores de México, que reconoce y clasifica por niveles a quienes investigan.</td>
+</tr>
+<tr>
+<td>Transformer</td>
+<td>La arquitectura de red neuronal, presentada en 2017, en la que se basan los modelos de lenguaje actuales.</td>
+</tr>
+<tr>
+<td>Validez (de un instrumento)</td>
+<td>Que un cuestionario mida realmente lo que dice medir.</td>
+</tr>
+<tr>
+<td><em>Workslop</em></td>
+<td>Trabajo hecho con IA que parece pulido pero no aporta nada, y obliga a otros a corregirlo o rehacerlo.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../para-saber-mas/12-ideas/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Anterior</span>
+                                <span class="block mt-1">12 ideas frente a la evidencia</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../referencias/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Siguiente</span>
+                                <span class="block mt-1">Referencias</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© 2026 Dr. Mario A. García Meza · <a href="https://marionomics.com">Marionomics</a></p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Glosario", level: 1, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/glosario.md" }</script>
+
+    <div id="mx-nudge" role="dialog" aria-label="Recibe los recursos del taller">
+      <button class="mx-close" type="button" aria-label="Cerrar">&times;</button>
+      <h4>Llévate el taller a tu correo</h4>
+      <p>Una serie corta de correos con los <i>prompts</i>, la checklist y recursos extra para tu investigación.</p>
+      <form class="mx-form" data-list="taller-ia">
+        <input type="email" name="email" placeholder="tu@correo.com" required autocomplete="email">
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="mx-msg" aria-live="polite"></div>
+    </div>
+    <script>
+    (function () {
+      // Notifuse: mismo servidor y workspace que el formulario de marionomics.com
+      var NOTIFUSE = "https://tangerine-puma.pikapod.net";
+      var WORKSPACE = "marionomics";
+      function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+      function subscribe(email, list) {
+        var tz = "America/Monterrey";
+        try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || tz; } catch (e) {}
+        return fetch(NOTIFUSE + "/subscribe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ workspace_id: WORKSPACE, list_ids: [list], contact: { email: email, timezone: tz } })
+        }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r; });
+      }
+      window.mxSubscribe = subscribe;
+
+      // Cualquier formulario .mx-form de la página (el aviso flotante o los que van dentro del contenido)
+      document.addEventListener("submit", function (ev) {
+        var form = ev.target;
+        if (!form.classList || !form.classList.contains("mx-form")) return;
+        ev.preventDefault();
+        var email = form.querySelector("input[type=email]").value.trim();
+        var btn = form.querySelector("button");
+        var msg = form.parentNode.querySelector(".mx-msg");
+        btn.disabled = true;
+        subscribe(email, form.getAttribute("data-list") || "taller-ia").then(function () {
+          if (msg) msg.textContent = "¡Listo! Revisa tu correo para confirmar tu suscripción.";
+          form.style.display = "none";
+          store("mx-subscribed", "1");
+        }).catch(function () {
+          if (msg) msg.textContent = "No se pudo registrar tu correo. Intenta de nuevo en un momento.";
+          btn.disabled = false;
+        });
+      });
+
+      // Aviso flotante: aparece tras 40 s o al recorrer media página, una vez cada 7 días
+      var nudge = document.getElementById("mx-nudge");
+      function canShow() {
+        if (store("mx-subscribed")) return false;
+        var last = parseInt(store("mx-nudge-closed") || "0", 10);
+        return Date.now() - last > 7 * 24 * 3600 * 1000;
+      }
+      function show() { if (nudge && canShow() && !/\/unirme\/?$/.test(location.pathname)) nudge.classList.add("show"); }
+      if (nudge) {
+        nudge.querySelector(".mx-close").addEventListener("click", function () { nudge.classList.remove("show"); store("mx-nudge-closed", String(Date.now())); });
+        setTimeout(show, 40000);
+        window.addEventListener("scroll", function onScroll() {
+          var h = document.documentElement;
+          if ((h.scrollTop + window.innerHeight) / h.scrollHeight > 0.5) { show(); window.removeEventListener("scroll", onScroll); }
+        }, { passive: true });
+      }
+
+      // Página /unirme/: el enlace del último correo del taller trae ?email=... y la suscribe a la lista principal
+      function joinPage() {
+        var box = document.getElementById("mx-join");
+        if (!box || box.getAttribute("data-done")) return;
+        box.setAttribute("data-done", "1");
+        var email = new URLSearchParams(location.search).get("email");
+        var out = box.querySelector(".mx-msg");
+        if (!email) { box.querySelector(".mx-form").style.display = ""; return; }
+        out.textContent = "Registrando " + email + "…";
+        subscribe(email, box.getAttribute("data-list")).then(function () {
+          out.textContent = "¡Listo! Ya estás en la lista principal de Marionomics. Revisa tu correo.";
+          store("mx-subscribed", "1");
+        }).catch(function () {
+          out.textContent = "No se pudo registrar automáticamente. Escribe tu correo aquí:";
+          box.querySelector(".mx-form").style.display = "";
+        });
+      }
+      document.addEventListener("DOMContentLoaded", joinPage);
+      document.addEventListener("turbo:load", joinPage);
+      if (document.readyState !== "loading") joinPage();
+    })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+<head>
+    <script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5WJS5ZWD');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847666181266">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
+    <meta name="title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
+    <meta name="description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://ia.marionomics.com/flujos/flujo-7/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://ia.marionomics.com/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ia.marionomics.com/flujos/flujo-7/">
+    <meta property="og:title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
+    <meta property="og:description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+    <meta property="og:site_name" content="Marionomics">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ia.marionomics.com/flujos/flujo-7/">
+    <meta name="twitter:title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
+    <meta name="twitter:description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/flujos/flujo-7.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../resources/css/retype.css?v=4.6.0.847666181266" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847666181266" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847666181266" data-turbo-eval="false" defer></script>
+
+    <style>
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-roman.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+    /* Texto de la guía con la estética de marionomics.com (Computer Modern) */
+    .retype-markdown { font-family: "CMU Serif", Georgia, "Times New Roman", serif; font-size: 1.125rem; line-height: 1.6; letter-spacing: -0.01rem; }
+    .retype-markdown h1, .retype-markdown h2, .retype-markdown h3 { font-family: "CMU Serif", Georgia, serif; letter-spacing: -0.02rem; }
+    .retype-markdown pre code { white-space: pre-wrap; word-break: break-word; }
+    .retype-markdown table { font-size: 0.95rem; }
+    .retype-markdown pre, .retype-markdown code { font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
+
+    /* Formularios de correo (Notifuse) */
+    .mx-form { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .75rem; }
+    .mx-form input[type=email] { flex: 1 1 14rem; min-width: 0; padding: .6rem .8rem; border: 1px solid #cfcfcf; border-radius: .5rem; font: inherit; font-size: 1rem; background: #fff; color: #1a1a1a; }
+    .mx-form button { padding: .6rem 1.1rem; border: 0; border-radius: .5rem; background: #1a1a1a; color: #fff; font: inherit; font-size: 1rem; cursor: pointer; }
+    .mx-form button[disabled] { opacity: .6; cursor: default; }
+    .mx-msg { margin-top: .5rem; font-size: .95rem; }
+
+    /* Aviso flotante (nudge) */
+    #mx-nudge { position: fixed; right: 1rem; bottom: 1rem; z-index: 60; width: min(24rem, calc(100vw - 2rem)); background: #fff; color: #1a1a1a; border: 1px solid #e2e2e2; border-radius: .75rem; box-shadow: 0 10px 30px rgba(0,0,0,.12); padding: 1rem 1.1rem; font-family: "CMU Serif", Georgia, serif; font-size: 1.05rem; line-height: 1.45; display: none; }
+    #mx-nudge.show { display: block; }
+    #mx-nudge h4 { margin: 0 1.5rem .35rem 0; font-size: 1.15rem; font-weight: 700; }
+    #mx-nudge p { margin: 0; }
+    #mx-nudge .mx-close { position: absolute; top: .45rem; right: .6rem; border: 0; background: none; font-size: 1.4rem; line-height: 1; cursor: pointer; color: #777; }
+    .dark #mx-nudge { background: #1f2128; color: #eee; border-color: #333; }
+    @media print { #mx-nudge { display: none !important; } }
+    </style>
+
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WJS5ZWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://ia.marionomics.com/" class="flex items-center leading-snug text-xl">
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">IA aplicada a la investigación</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Taller</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://marionomics.com">Marionomics</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.skool.com/economista-full-stack-6510">Comunidad Economista Full Stack</a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+            <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                    <span class="text-xs whitespace-nowrap">Powered by</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://marionomics.com">Marionomics</a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.skool.com/economista-full-stack-6510">Comunidad Economista Full Stack</a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+<h1 id="flujo-7-artefactos-formularios-tableros-y-laboratorios">Flujo 7. Artefactos: formularios, tableros y laboratorios</h1>
+<p>La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:</p>
+<ul>
+<li><strong>Formularios automáticos.</strong> Un script de Google Apps Script que crea el Google Form a partir de tus reactivos y otro que envía la encuesta por correo a una lista (así hice el seguimiento a egresados de la FECA).</li>
+<li><strong>Tableros de resultados.</strong> Una página web que lee los resultados de un instrumento y los muestra con gráficas desde el primer día del levantamiento.</li>
+<li><strong>Laboratorios interactivos.</strong> Páginas para que mis alumnos de Investigación de Operaciones experimenten con el problema del agente viajero o la ruta más corta, acompañadas de un cuaderno de Colab.</li>
+<li><strong>Cuadernos didácticos.</strong> &quot;Tu primera regresión en Python&quot;, con datos incluidos y un ejercicio que muestra el sesgo por variable omitida.</li>
+</ul>
+<p>Lo que pasa la prueba de la revelación: la herramienta es un medio, documentado y revisado. Lo que no: presentar el tablero como si fuera tu análisis sin haber revisado cada número.</p>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../flujos/flujo-6/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Anterior</span>
+                                <span class="block mt-1">6. Datos y econometr&#237;a con agentes</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../flujos/flujo-8/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Siguiente</span>
+                                <span class="block mt-1">8. La IA como revisor, no como autor</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© 2026 Dr. Mario A. García Meza · <a href="https://marionomics.com">Marionomics</a></p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "7. Artefactos: formularios, tableros y laboratorios", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/flujos/flujo-7.md" }</script>
+
+    <div id="mx-nudge" role="dialog" aria-label="Recibe los recursos del taller">
+      <button class="mx-close" type="button" aria-label="Cerrar">&times;</button>
+      <h4>Llévate el taller a tu correo</h4>
+      <p>Una serie corta de correos con los <i>prompts</i>, la checklist y recursos extra para tu investigación.</p>
+      <form class="mx-form" data-list="taller-ia">
+        <input type="email" name="email" placeholder="tu@correo.com" required autocomplete="email">
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="mx-msg" aria-live="polite"></div>
+    </div>
+    <script>
+    (function () {
+      // Notifuse: mismo servidor y workspace que el formulario de marionomics.com
+      var NOTIFUSE = "https://tangerine-puma.pikapod.net";
+      var WORKSPACE = "marionomics";
+      function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+      function subscribe(email, list) {
+        var tz = "America/Monterrey";
+        try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || tz; } catch (e) {}
+        return fetch(NOTIFUSE + "/subscribe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ workspace_id: WORKSPACE, list_ids: [list], contact: { email: email, timezone: tz } })
+        }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r; });
+      }
+      window.mxSubscribe = subscribe;
+
+      // Cualquier formulario .mx-form de la página (el aviso flotante o los que van dentro del contenido)
+      document.addEventListener("submit", function (ev) {
+        var form = ev.target;
+        if (!form.classList || !form.classList.contains("mx-form")) return;
+        ev.preventDefault();
+        var email = form.querySelector("input[type=email]").value.trim();
+        var btn = form.querySelector("button");
+        var msg = form.parentNode.querySelector(".mx-msg");
+        btn.disabled = true;
+        subscribe(email, form.getAttribute("data-list") || "taller-ia").then(function () {
+          if (msg) msg.textContent = "¡Listo! Revisa tu correo para confirmar tu suscripción.";
+          form.style.display = "none";
+          store("mx-subscribed", "1");
+        }).catch(function () {
+          if (msg) msg.textContent = "No se pudo registrar tu correo. Intenta de nuevo en un momento.";
+          btn.disabled = false;
+        });
+      });
+
+      // Aviso flotante: aparece tras 40 s o al recorrer media página, una vez cada 7 días
+      var nudge = document.getElementById("mx-nudge");
+      function canShow() {
+        if (store("mx-subscribed")) return false;
+        var last = parseInt(store("mx-nudge-closed") || "0", 10);
+        return Date.now() - last > 7 * 24 * 3600 * 1000;
+      }
+      function show() { if (nudge && canShow() && !/\/unirme\/?$/.test(location.pathname)) nudge.classList.add("show"); }
+      if (nudge) {
+        nudge.querySelector(".mx-close").addEventListener("click", function () { nudge.classList.remove("show"); store("mx-nudge-closed", String(Date.now())); });
+        setTimeout(show, 40000);
+        window.addEventListener("scroll", function onScroll() {
+          var h = document.documentElement;
+          if ((h.scrollTop + window.innerHeight) / h.scrollHeight > 0.5) { show(); window.removeEventListener("scroll", onScroll); }
+        }, { passive: true });
+      }
+
+      // Página /unirme/: el enlace del último correo del taller trae ?email=... y la suscribe a la lista principal
+      function joinPage() {
+        var box = document.getElementById("mx-join");
+        if (!box || box.getAttribute("data-done")) return;
+        box.setAttribute("data-done", "1");
+        var email = new URLSearchParams(location.search).get("email");
+        var out = box.querySelector(".mx-msg");
+        if (!email) { box.querySelector(".mx-form").style.display = ""; return; }
+        out.textContent = "Registrando " + email + "…";
+        subscribe(email, box.getAttribute("data-list")).then(function () {
+          out.textContent = "¡Listo! Ya estás en la lista principal de Marionomics. Revisa tu correo.";
+          store("mx-subscribed", "1");
+        }).catch(function () {
+          out.textContent = "No se pudo registrar automáticamente. Escribe tu correo aquí:";
+          box.querySelector(".mx-form").style.display = "";
+        });
+      }
+      document.addEventListener("DOMContentLoaded", joinPage);
+      document.addEventListener("turbo:load", joinPage);
+      if (document.readyState !== "loading") joinPage();
+    })();
+    </script>
+
+</body>
+</html>
