@@ -12,8 +12,7 @@ Un agente es un sistema de IA que planea, usa herramientas (navegador, terminal,
 
 Lo que esto significa en la práctica: ya no tienes que copiar y pegar código de un chat a RStudio. Le describes el análisis a un agente, él escribe el script, lo corre, encuentra el error y lo corrige. Tu trabajo pasa de *ejecutar* a *especificar y auditar*.
 
-!!!secondary Para saber más (opcional): Las matemáticas, el caso que nos adelanta el futuro
-Puedes saltarte este recuadro sin perder el hilo.
+!!!secondary Para saber más: Las matemáticas, el caso que nos adelanta el futuro
 
 - **Terence Tao** (medalla Fields, UCLA) pasó de escéptico a usuario. Sostiene que la IA podrá hacer pronto "una fracción razonable" de las tareas de investigación, y que la pregunta importante es **para qué sirve la investigación matemática** ([The Decoder](https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/)).
 - En el proyecto *First Proof*, siete de diez problemas de investigación inéditos recibieron al menos una solución aprobada de algún sistema de IA, con costos de decenas a cientos de dólares por problema.
