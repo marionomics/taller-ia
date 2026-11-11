@@ -7,7 +7,7 @@ icon: home
 
 **Guía del curso-taller** · Dr. Mario A. García Meza · [Marionomics](https://marionomics.com)
 
-En este taller vas a usar la IA en tu propia investigación. Primero hay tres secciones cortas con lo que necesitas saber para que nada sea confuso al momento de ejecutar. Después vienen los ocho flujos de trabajo con sus *prompts*. El panorama general y la evidencia están en [Para saber más](para-saber-mas/index.md).
+En este taller vas a usar la IA en tu propia investigación. Primero hay cuatro secciones cortas con lo que necesitas saber para que nada sea confuso al momento de ejecutar. Después vienen los ocho flujos de trabajo con sus *prompts*. El panorama general y la evidencia están en [Para saber más](para-saber-mas/index.md).
 
 !!!base Una sola idea para todo el taller
 La IA hace los pasos intermedios (buscar, ordenar, programar, revisar); tú piensas y escribes.
@@ -17,6 +17,9 @@ La IA hace los pasos intermedios (buscar, ordenar, programar, revisar); tú pien
 
 >>> Cómo funciona la IA
 Lo mínimo para usarla bien: por qué inventa referencias, por qué te da la razón y las cuatro formas de usarla. [Leer →](como-funciona-la-ia.md)
+
+>>> Qué IA usar
+Las diferencias entre modelos, qué puedes hacer con la versión gratuita y qué herramienta usar en cada flujo. [Leer →](que-ia-usar.md)
 
 >>> Por qué seguimos investigando
 Para qué sirve hacer una investigación cuando la IA ya puede hacer tanto. [Leer →](por-que-investigamos.md)
@@ -40,8 +43,12 @@ Una serie corta de correos con los *prompts*, la checklist y recursos extra para
 <div class="mx-msg" aria-live="polite"></div>
 !!!
 
-## Finalmente… si quieres hacer econometría
+## Finalmente… si quieres ir más lejos
 
-Si este taller te dejó con ganas de hacer análisis de datos en serio, te espero en la comunidad [Economista Full Stack](https://www.skool.com/economista-full-stack-6510). Y si quieres profundizar en cómo trabajar una tesis con IA, está mi libro *Escribe una tesis con Inteligencia Artificial* ([Amazon](https://a.co/d/03Jjit3q)).
+Todo lo de esta guía se puede hacer con la versión gratuita de un chat. Cuando quieras dar el siguiente paso (agentes como Claude Code, automatizaciones, análisis de datos en serio), te espero en mi comunidad **Economista Full Stack**: ahí comparto los scripts, plantillas y *prompts* que uso, y en las sesiones semanales puedes traer tu propio proyecto. Tienes **7 días gratis** para probarla.
+
+[!button variant="primary" text="Probar 7 días gratis"](https://www.skool.com/economista-full-stack-6510/about)
+
+Y si quieres profundizar en cómo trabajar una tesis con IA, está mi libro *Escribe una tesis con Inteligencia Artificial* ([Amazon](https://a.co/d/03Jjit3q)).
 
 Recuerda: la salsa existe para bailarse.

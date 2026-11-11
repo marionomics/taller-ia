@@ -21,3 +21,5 @@ Hoy la puedes usar de cuatro formas, que siguen la evolución de chatbots a mode
 | Agente | Usa herramientas: descarga datos, programa, corre código y corrige sus errores | Analizar una base de datos de principio a fin |
 
 Entre más autonomía le das, más cambia tu trabajo: pasas de *ejecutar* a *especificar y revisar*.
+
+Qué modelo conviene en cada caso y qué puedes hacer con la versión gratuita está en [Qué IA usar](que-ia-usar.md).
