@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847669003999">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847670623264">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -14,7 +14,7 @@
     <!-- Primary Meta Tags -->
     <title>Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
     <meta name="title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
-    <meta name="description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+    <meta name="description" content="Para qué sirve: construir pequeñas herramientas para tu investigación (una calculadora, un formulario, un tablero de resultados) sin saber programar, y saber revisarlas antes de confiar en ellas.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ia.marionomics.com/flujos/flujo-7/">
@@ -24,7 +24,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ia.marionomics.com/flujos/flujo-7/">
     <meta property="og:title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
-    <meta property="og:description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+    <meta property="og:description" content="Para qué sirve: construir pequeñas herramientas para tu investigación (una calculadora, un formulario, un tablero de resultados) sin saber programar, y saber revisarlas antes de confiar en ellas.">
     <meta property="og:site_name" content="Marionomics">
     <meta property="og:locale" content="es_ES">
 
@@ -32,18 +32,20 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://ia.marionomics.com/flujos/flujo-7/">
     <meta name="twitter:title" content="Flujo 7. Artefactos: formularios, tableros y laboratorios | IA aplicada a la investigación · Marionomics">
-    <meta name="twitter:description" content="La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:">
+    <meta name="twitter:description" content="Para qué sirve: construir pequeñas herramientas para tu investigación (una calculadora, un formulario, un tablero de resultados) sin saber programar, y saber revisarlas antes de confiar en ellas.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/flujos/flujo-7.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.6.0.847669003999" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.847670623264" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
+    <link href="../../resources/css/katex.css?v=4.6.0" rel="stylesheet">
+    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=4.6.0" defer></script>
 
     <style>
     @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
@@ -188,14 +190,119 @@
 
                 <!-- Page content  -->
 <h1 id="flujo-7-artefactos-formularios-tableros-y-laboratorios">Flujo 7. Artefactos: formularios, tableros y laboratorios</h1>
-<p>La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:</p>
+<p><strong>Para qué sirve:</strong> construir pequeñas herramientas para tu investigación (una calculadora, un formulario, un tablero de resultados) sin saber programar, y saber revisarlas antes de confiar en ellas. <strong>Tiempo:</strong> 30 minutos para tu primera herramienta. <strong>Herramienta:</strong> los <strong>artefactos</strong> de Claude o el <strong>Canvas</strong> de Gemini y ChatGPT; los tres funcionan en la versión gratuita.</p>
+<h2 id="tu-investigación-necesita-herramientas-que-nadie-te-va-a-hacer">Tu investigación necesita herramientas que nadie te va a hacer</h2>
+<p>Piensa en todo lo que una investigación necesita además del texto: un formulario para levantar tu encuesta, una calculadora para decidir el tamaño de tu muestra, un tablero para ver cómo van llegando las respuestas, un simulador para explicarle tu modelo a tu comité.</p>
+<p>Hasta hace muy poco tenías tres opciones: aprender a programar, pagarle a alguien o hacerlo todo a mano en Excel. La mayoría escogía la tercera, y así nacían las hojas de cálculo frágiles que vimos en el <a href="../flujo-6/">Flujo 6</a>.</p>
+<h2 id="ahora-describes-la-herramienta-y-la-ia-la-construye">Ahora describes la herramienta y la IA la construye</h2>
+<p>La IA ya no solo escribe texto: construye cosas que funcionan. Un <strong>artefacto</strong> (así le llama Claude; en Gemini y ChatGPT se llama Canvas) es una ventana al lado del chat donde la IA escribe un programa pequeño y lo puedes usar al momento: una página con botones, gráficas y cálculos. Le pides cambios en el chat y se actualiza.</p>
+<p>La ganancia es real. En un experimento con programadores, quienes usaron un asistente de IA terminaron la misma tarea 56 % más rápido que quienes no lo usaron (Peng et al., 2023). Para alguien que no programa, la diferencia es todavía mayor: es pasar de &quot;no puedo&quot; a &quot;lo tengo en media hora&quot;.</p>
+<p>Algunas cosas que he hecho así:</p>
 <ul>
-<li><strong>Formularios automáticos.</strong> Un script de Google Apps Script que crea el Google Form a partir de tus reactivos y otro que envía la encuesta por correo a una lista (así hice el seguimiento a egresados de la FECA).</li>
-<li><strong>Tableros de resultados.</strong> Una página web que lee los resultados de un instrumento y los muestra con gráficas desde el primer día del levantamiento.</li>
-<li><strong>Laboratorios interactivos.</strong> Páginas para que mis alumnos de Investigación de Operaciones experimenten con el problema del agente viajero o la ruta más corta, acompañadas de un cuaderno de Colab.</li>
-<li><strong>Cuadernos didácticos.</strong> &quot;Tu primera regresión en Python&quot;, con datos incluidos y un ejercicio que muestra el sesgo por variable omitida.</li>
+<li><strong>Formularios automáticos.</strong> Un script de Google Apps Script que crea el Google Form a partir de mis reactivos, y otro que envía la encuesta por correo a una lista. Así levanté el seguimiento a egresados de la FECA.</li>
+<li><strong>Tableros de resultados.</strong> Una página que lee las respuestas de un instrumento y las muestra en gráficas desde el primer día del levantamiento.</li>
+<li><strong>Laboratorios para clase.</strong> Páginas para que mis alumnos de Investigación de Operaciones experimenten con el problema del agente viajero o la ruta más corta.</li>
 </ul>
-<p>Lo que pasa la prueba de la revelación: la herramienta es un medio, documentado y revisado. Lo que no: presentar el tablero como si fuera tu análisis sin haber revisado cada número.</p>
+<h2 id="una-herramienta-bonita-no-es-una-herramienta-correcta">Una herramienta bonita no es una herramienta correcta</h2>
+<p>Este es el riesgo: la IA hace herramientas que <strong>se ven</strong> profesionales. Botones, colores, gráficas animadas. Y nuestra cabeza confunde &quot;se ve bien&quot; con &quot;está bien&quot;.</p>
+<p>Una calculadora con una fórmula equivocada da números equivocados con la misma seguridad que una correcta. Por eso la regla de este flujo es: <strong>antes de usarla, pruébala con un caso del que ya sepas la respuesta.</strong></p>
+<p>Otros dos cuidados:</p>
+<ul>
+<li><strong>No subas datos personales</strong> de tus encuestados a una herramienta que se puede compartir con un enlace.</li>
+<li><strong>Documenta qué hace.</strong> Si presentas resultados que salieron de un tablero, tienes que poder explicar cada número. Si no, no pasa la prueba de la revelación (ver <a href="../../que-es-recomendable/">Qué es recomendable y qué no</a>).</li>
+</ul>
+<h2 id="treinta-minutos-cuatro-pasos">Treinta minutos, cuatro pasos</h2>
+<doc-steps>
+   <doc-step id="describe-la-herramienta-como-si-se-la-pidieras-a-un-programador" step-number="1">
+      <template #title>Describe la herramienta como si se la pidieras a un programador</template>
+<p>Qué entra, qué sale, qué cálculo hace y para quién es. Entre más claro, menos vueltas.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="pídela-en-modo-artefacto-o-canvas" step-number="2">
+      <template #title>Pídela en modo artefacto o Canvas</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">Crea una herramienta interactiva (artefacto) para {propósito}.
+Entradas: {qué escribe o elige el usuario}.
+Salidas: {qué muestra: números, tabla, gráfica}.
+Cálculo: {fórmula o regla; si no la sabes, pídele que la explique antes de programarla}.
+Debajo del resultado, muestra la fórmula que usaste y los valores que sustituiste.
+Interfaz en español, sencilla y legible en celular.</code></pre>
+</doc-codeblock></div>
+<p>&quot;Muestra la fórmula y los valores&quot; convierte una caja negra en algo que puedes revisar.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="pruébala-con-un-caso-conocido" step-number="3">
+      <template #title>Pruébala con un caso conocido</template>
+<p>Busca un ejemplo resuelto en un libro, en un artículo o hazlo a mano. Si la herramienta no da lo mismo, díselo a la IA con el caso concreto: &quot;con estos valores debería dar X y me da Y&quot;.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="ajusta-y-guárdala" step-number="4">
+      <template #title>Ajusta y guárdala</template>
+<p>Pide cambios en lenguaje normal (&quot;agrega un campo para…&quot;, &quot;pon la gráfica en barras&quot;). Cuando funcione, puedes publicarla y compartir el enlace, o descargar el archivo.</p>
+   </doc-step>
+</doc-steps>
+<h2 id="sí-pero">&quot;Sí, pero…&quot;</h2>
+<p><strong>&quot;¿Necesito saber programar?&quot;</strong> No para construirla. Sí necesitas saber qué debería calcular, igual que en el <a href="../flujo-6/">Flujo 6</a>. La IA programa; tú verificas.</p>
+<p><strong>&quot;¿Puedo usar esto para mi encuesta real?&quot;</strong> Para crear el formulario, sí: pídele un script de Google Apps Script que genere el Google Form con tus reactivos. Te dice paso a paso dónde pegarlo. Para guardar respuestas de personas reales, usa una herramienta establecida como Google Forms, no una página improvisada.</p>
+<p><strong>&quot;¿Y si quiero algo más grande, como una plataforma?&quot;</strong> Ahí ya entras al terreno de los agentes y del desarrollo de software. Es posible, pero es otro nivel; lo verás al final de esta página.</p>
+<h2 id="míralo-funcionar-una-calculadora-de-tamaño-de-muestra">Míralo funcionar: una calculadora de tamaño de muestra</h2>
+<p>Necesitas saber cuántas personas encuestar. La fórmula clásica para estimar una proporción es:</p>
+<p><span class="math">n_0 = \frac{z^2 \, p(1-p)}{e^2}</span></p>
+<p>donde <span class="math">z</span> es 1.96 para un 95 % de confianza, <span class="math">p</span> es la proporción esperada (0.5 si no tienes idea, porque es el caso más exigente) y <span class="math">e</span> es el margen de error. Si tu población es pequeña, se corrige con <span class="math">n = n_0 / \left(1 + \frac{n_0 - 1}{N}\right)</span>, donde <span class="math">N</span> es el tamaño de la población.</p>
+<p>Le pido a la IA una calculadora con esas entradas, usando el <em>prompt</em> del paso 2. Antes de usarla, la pruebo con un caso que sé de memoria: con 95 % de confianza, <span class="math">p = 0.5</span> y 5 % de error, la respuesta tiene que ser <strong>385</strong> (384.16, redondeado hacia arriba). Y si la población es de 2,000 personas, tiene que dar <strong>323</strong>.</p>
+<p>Si da esos números, confío en ella. Si no, ya sé que algo está mal antes de salir a campo con una muestra equivocada.</p>
+<h2 id="tu-turno">Tu turno</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>30 minutos, tu primera herramienta</h5>
+<ol>
+<li>Abre Claude (artefactos) o Gemini (Canvas) en su versión gratuita.</li>
+<li>Pide la calculadora de tamaño de muestra con el <em>prompt</em> del paso 2.</li>
+<li>Pruébala: ¿da 385 sin corrección y 323 con una población de 2,000?</li>
+<li>Cámbiale los valores a los de tu investigación y anota tu tamaño de muestra.</li>
+</ol>
+<p>Bonus: pídele que agregue una gráfica de cómo cambia la muestra según el margen de error. Vas a ver por qué pasar de 5 % a 3 % de error casi triplica las encuestas.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Cuando quieras construir en serio</h5>
+<p>Los artefactos son el primer paso. Con agentes como <strong>Claude Code</strong> puedes construir tableros que se conectan a tus datos, automatizar el envío de encuestas o armar el sitio de tu proyecto. En mi comunidad <strong>Economista Full Stack</strong> comparto los scripts y plantillas que uso, y en las sesiones semanales puedes traer lo que estés construyendo. Tienes <strong>7 días gratis</strong> para probarla y cancelas cuando quieras.</p>
+<p><a href="https://www.skool.com/economista-full-stack-6510/about" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span>Probar 7 días gratis</span>
+</a></p>
+        </div>
+    </div>
+</div>
+<h2 id="referencias-de-este-flujo">Referencias de este flujo</h2>
+<ul>
+<li>Peng, S., Kalliamvakou, E., Cihon, P. y Demirer, M. (2023). The impact of AI on developer productivity: Evidence from GitHub Copilot. <em>arXiv</em>, 2302.06590.</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->
@@ -262,7 +369,7 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "7. Artefactos: formularios, tableros y laboratorios", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/flujos/flujo-7.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "7. Artefactos: formularios, tableros y laboratorios", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: true, tocDepth: 23, "md": "/flujos/flujo-7.md" }</script>
 
     <div id="mx-nudge" role="dialog" aria-label="Recibe los recursos del taller">
       <button class="mx-close" type="button" aria-label="Cerrar">&times;</button>

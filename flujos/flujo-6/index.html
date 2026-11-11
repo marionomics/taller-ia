@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847669003999">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847670623264">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -14,7 +14,7 @@
     <!-- Primary Meta Tags -->
     <title>Flujo 6. Datos y econometr&#237;a con agentes | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
     <meta name="title" content="Flujo 6. Datos y econometría con agentes | IA aplicada a la investigación · Marionomics">
-    <meta name="description" content="Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores.">
+    <meta name="description" content="Para qué sirve: analizar tus datos con ayuda de la IA sin perder el control: que ella programe y tú especifiques y revises. Tiempo: 1 hora para el ejercicio; tu análisis real, lo que tome.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ia.marionomics.com/flujos/flujo-6/">
@@ -24,7 +24,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ia.marionomics.com/flujos/flujo-6/">
     <meta property="og:title" content="Flujo 6. Datos y econometría con agentes | IA aplicada a la investigación · Marionomics">
-    <meta property="og:description" content="Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores.">
+    <meta property="og:description" content="Para qué sirve: analizar tus datos con ayuda de la IA sin perder el control: que ella programe y tú especifiques y revises. Tiempo: 1 hora para el ejercicio; tu análisis real, lo que tome.">
     <meta property="og:site_name" content="Marionomics">
     <meta property="og:locale" content="es_ES">
 
@@ -32,18 +32,18 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://ia.marionomics.com/flujos/flujo-6/">
     <meta name="twitter:title" content="Flujo 6. Datos y econometría con agentes | IA aplicada a la investigación · Marionomics">
-    <meta name="twitter:description" content="Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores.">
+    <meta name="twitter:description" content="Para qué sirve: analizar tus datos con ayuda de la IA sin perder el control: que ella programe y tú especifiques y revises. Tiempo: 1 hora para el ejercicio; tu análisis real, lo que tome.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/flujos/flujo-6.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.6.0.847669003999" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.847670623264" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
 
     <style>
     @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
@@ -188,9 +188,30 @@
 
                 <!-- Page content  -->
 <h1 id="flujo-6-datos-y-econometría-con-agentes">Flujo 6. Datos y econometría con agentes</h1>
-<p>Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores. Yo lo he usado para construir cuadernos de Python para mis alumnos, scripts de limpieza, gráficas de modelos económicos y tablas de comparación de modelos. Tu trabajo cambia de <em>ejecutar</em> a <em>especificar y auditar</em>.</p>
-<p><strong>Paso 0: entiende la fuente antes de tocar los datos.</strong> Si no capturaste los datos, tienes que conocer su metodología como si lo hubieras hecho. Sube el documento metodológico (p. ej. &quot;Cómo se hace la ENOE&quot; del INEGI):</p>
-<div id="flujo-6-datos-y-econometría-con-agentes-code-1" class="codeblock-wrapper"><doc-codeblock>
+<p><strong>Para qué sirve:</strong> analizar tus datos con ayuda de la IA sin perder el control: que ella programe y tú especifiques y revises. <strong>Tiempo:</strong> 1 hora para el ejercicio; tu análisis real, lo que tome. <strong>Herramienta:</strong> Claude (la versión gratuita ejecuta código y acepta archivos), el análisis de datos de ChatGPT (limitado en la gratuita) o Google Colab con Gemini.</p>
+<h2 id="un-error-de-excel-que-movió-la-política-económica-de-medio-mundo">Un error de Excel que movió la política económica de medio mundo</h2>
+<p>En 2010, Carmen Reinhart y Kenneth Rogoff publicaron un estudio que se volvió famosísimo: los países con una deuda pública mayor al 90 % de su PIB crecían mucho menos. Políticos de varios países lo citaron para justificar recortes de gasto.</p>
+<p>En 2013, un estudiante de doctorado de la Universidad de Massachusetts intentó replicarlo como tarea y no le cuadraban los números. Encontró, entre otras cosas, un error en la hoja de cálculo: una fórmula de promedio dejaba fuera a cinco países. Con los datos corregidos, el crecimiento promedio de los países muy endeudados no era negativo, sino de 2.2 % (Herndon, Ash y Pollin, 2014).</p>
+<p>No te cuento esto para burlarme de dos economistas brillantes. Te lo cuento porque <strong>a cualquiera le pasa</strong>. Cuando economistas intentaron replicar 67 artículos publicados en revistas importantes usando los datos y el código de los autores, solo pudieron reproducir el resultado principal de una tercera parte sin pedirles ayuda (Chang y Li, 2022).</p>
+<p>Si eso pasa con investigadores profesionales, imagina un análisis que nadie más puede revisar porque vive en clics sueltos.</p>
+<h2 id="la-ia-puede-hacer-todo-el-análisis-ese-es-justo-el-riesgo">La IA puede hacer todo el análisis. Ese es justo el riesgo.</h2>
+<p>Hoy un <strong>agente</strong> (una IA que usa herramientas por su cuenta: escribe código, lo corre, ve el error y lo corrige) puede descargar datos, limpiarlos, correr la regresión y hacer las gráficas. Yo lo he usado para construir cuadernos de Python para mis alumnos, scripts de limpieza y tablas de comparación de modelos.</p>
+<p>Tu trabajo cambia de <strong>ejecutar</strong> a <strong>especificar y auditar</strong>. Y aquí está la trampa: un agente sin pausas te entrega un resultado terminado, con buena presentación, que no tienes forma de revisar. Es un Reinhart-Rogoff esperando a pasar.</p>
+<p>La IA tiene conocimiento de doctorado. Pero recuerda que el doctorado no quita lo tarado: puede eliminar observaciones sin avisarte, cambiar tu modelo &quot;porque se ve mejor&quot; o interpretar un coeficiente al revés.</p>
+<h2 id="pídele-un-script-no-un-resultado">Pídele un script, no un resultado</h2>
+<p>La regla que lo cambia todo: que <strong>todo</strong> el análisis viva en un archivo de código (R o Python) que se pueda correr de principio a fin. Así:</p>
+<ul>
+<li><strong>Se puede revisar.</strong> Cada decisión (qué observaciones quitaste, qué variables creaste) está escrita.</li>
+<li><strong>Se puede repetir.</strong> Si mañana te llegan datos nuevos, corres el mismo script.</li>
+<li><strong>Se puede defender.</strong> Ante tu comité, el script es tu evidencia de que el número no salió de la nada.</li>
+</ul>
+<p>Los errores típicos son tres: pedir &quot;analiza mis datos&quot; sin decir qué esperas encontrar; aceptar el número final sin mirar los pasos intermedios; y dejar que la IA cambie tu especificación sin preguntarte.</p>
+<h2 id="una-hora-seis-pasos">Una hora, seis pasos</h2>
+<doc-steps>
+   <doc-step id="entiende-la-fuente-antes-de-tocar-los-datos" step-number="0">
+      <template #title>Entiende la fuente antes de tocar los datos</template>
+<p>Si no levantaste los datos tú, tienes que conocer su metodología como si lo hubieras hecho. Sube el documento metodológico (por ejemplo, &quot;Cómo se hace la ENOE&quot; de INEGI):</p>
+<div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Estoy haciendo un estudio sobre {tema}. Lee con atención el documento metodológico adjunto y descríbeme:
 - El diseño estadístico: tamaños de muestra, confianza y error.
 - Las limitaciones del diseño, incluida la representatividad.
@@ -199,16 +220,19 @@
 - Variables clave para mi análisis, incluidas las de control.
 Cita la página o sección de cada afirmación.</code></pre>
 </doc-codeblock></div>
-<p><strong>El flujo con un agente:</strong></p>
-<ol>
-<li><strong>Escribe tú el plan de análisis</strong> (media cuartilla): pregunta, fuente, unidad de observación, variable dependiente, variables explicativas, modelo y <strong>qué esperas encontrar</strong>.</li>
-<li><strong>Pídele un script, no un resultado.</strong> Todo en un archivo <code translate="no" v-pre>.R</code> o <code translate="no" v-pre>.py</code> que se pueda correr de principio a fin, con comentarios.</li>
-<li><strong>Revisa los pasos intermedios.</strong> Observaciones antes y después de cada filtro, variables creadas, valores faltantes, una tabla descriptiva que puedas comparar con cifras publicadas.</li>
-<li><strong>Lee el código</strong> del modelo línea por línea. Si no entiendes una línea, pregunta hasta entenderla.</li>
-<li><strong>Compara con tu predicción.</strong> Si el resultado te sorprende, primero sospecha de los datos, después del código y al final de tu teoría.</li>
-<li><strong>Replica a mano</strong> una estimación clave.</li>
-</ol>
-<div id="flujo-6-datos-y-econometría-con-agentes-code-2" class="codeblock-wrapper"><doc-codeblock>
+<p>&quot;Cita la página&quot; te deja comprobar cada afirmación en segundos.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="escribe-tú-el-plan-de-análisis" step-number="1">
+      <template #title>Escribe tú el plan de análisis</template>
+<p>Media cuartilla: pregunta, fuente, unidad de observación, variable dependiente, variables explicativas, modelo y <strong>qué esperas encontrar</strong>. Esa última línea es tu detector de errores: si el resultado sale muy distinto, algo hay que revisar.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="dale-reglas-al-agente" step-number="2">
+      <template #title>Dale reglas al agente</template>
+<div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Eres mi asistente de investigación en econometría. Este es mi plan de análisis: {pega tu plan}.
 Reglas:
 1. Todo en un script reproducible en {R / Python}, comentado en español. Nada de cálculos fuera del script.
@@ -217,7 +241,66 @@ Reglas:
 4. No cambies la especificación del modelo sin preguntarme. Si crees que hay un problema (endogeneidad, multicolinealidad, errores estándar), dime cuál y por qué, y yo decido.
 5. Las gráficas se generan desde el código y se guardan como archivos.</code></pre>
 </doc-codeblock></div>
-<p>La regla 3 es la más importante: un agente sin pausas te entrega un resultado terminado que no tienes forma de revisar.</p>
+<p>La regla 3 es la más importante: es la pausa que te deja revisar antes de que haya un resultado que te guste.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="revisa-los-pasos-intermedios" step-number="3">
+      <template #title>Revisa los pasos intermedios</template>
+<p>Observaciones antes y después de cada filtro, variables creadas, valores faltantes. Compara la estadística descriptiva con cifras publicadas: si tu salario promedio no se parece al que reporta INEGI para esa población, algo anda mal.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="lee-el-código-del-modelo" step-number="4">
+      <template #title>Lee el código del modelo</template>
+<p>Línea por línea. Si no entiendes una línea, pregunta hasta entenderla. No necesitas saber programar para esto; necesitas saber qué debería estar haciendo cada paso.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="compara-con-tu-predicción-y-replica-algo-a-mano" step-number="5">
+      <template #title>Compara con tu predicción y replica algo a mano</template>
+<p>Si el resultado te sorprende, primero sospecha de los datos, después del código y al final de tu teoría. Y replica a mano (o en otra herramienta) al menos una estimación clave.</p>
+   </doc-step>
+</doc-steps>
+<h2 id="sí-pero">&quot;Sí, pero…&quot;</h2>
+<p><strong>&quot;No sé programar.&quot;</strong> No necesitas escribir el código, pero sí leerlo. Pídele a la IA que te explique cada bloque en español. Con el tiempo vas a reconocer los patrones, igual que aprendiste a leer una tabla de regresión.</p>
+<p><strong>&quot;¿R o Python?&quot;</strong> El que use tu asesor o tu área. Los dos son software libre y la IA maneja muy bien ambos.</p>
+<p><strong>&quot;La versión gratuita se me corta a media sesión.&quot;</strong> Por eso el script: si se corta, abres otra conversación, subes el script y los datos, y sigues donde te quedaste. Es otra razón para no depender de la memoria del chat.</p>
+<p><strong>&quot;¿Y Claude Code, Codex y esos agentes de los que todos hablan?&quot;</strong> Son la versión más poderosa de este flujo: trabajan directamente sobre las carpetas de tu computadora, corren análisis completos y pueden pasar horas en una tarea. Requieren plan de pago y algo de configuración. Para empezar, el chat gratuito con ejecución de código es suficiente.</p>
+<h2 id="míralo-funcionar-y-pruébalo-tú">Míralo funcionar (y pruébalo tú)</h2>
+<p>Preparé una base de <strong>datos simulados</strong> para que practiques: <a href="../../static/datos/salarios-simulados.csv">salarios-simulados.csv</a>. Son 1,000 personas con salario mensual, años de educación, experiencia, sexo y el puntaje en una prueba de habilidades.</p>
+<p>Como la simulé yo, sé la respuesta: <strong>cada año de educación aumenta el salario 8 %</strong>. Pero metí tres trampas, como en los datos reales:</p>
+<ol>
+<li>Hay salarios faltantes.</li>
+<li>Hay dos capturas absurdas (un salario de 9,999,999).</li>
+<li>La habilidad influye en el salario y también en cuántos años estudias. Si no la controlas (con el puntaje de la prueba), el efecto de la educación sale inflado. Es el <strong>sesgo por variable omitida</strong>.</li>
+</ol>
+<p>Un buen análisis debería reportarte las tres cosas y llegar a un efecto cercano a 8 %. Uno descuidado te va a dar alrededor de 11 % y no te va a avisar de nada.</p>
+<h2 id="tu-turno">Tu turno</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>1 hora, ¿encontraste las trampas?</h5>
+<ol>
+<li>Descarga <a href="../../static/datos/salarios-simulados.csv">salarios-simulados.csv</a> y súbelo a tu chat.</li>
+<li>Escribe un plan de análisis de cinco líneas: pregunta, variables, modelo (regresión del logaritmo del salario) y qué esperas encontrar.</li>
+<li>Usa el <em>prompt</em> del paso 2.</li>
+<li>Revisa: ¿te reportó los faltantes? ¿Detectó las dos capturas absurdas? ¿Te sugirió controlar por habilidad, o te preguntó antes de agregarla?</li>
+<li>Compara su resultado con el 8 % verdadero.</li>
+</ol>
+<p>Si te dio 11 % sin decir nada, ya viste por qué la regla 3 existe.</p>
+        </div>
+    </div>
+</div>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -241,6 +324,32 @@ Reglas:
         </div>
     </div>
 </div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Cuando quieras trabajar con agentes de verdad</h5>
+<p>Todo este flujo funciona con la versión gratuita de un chat. El siguiente nivel son agentes como <strong>Claude Code</strong>, que trabajan sobre las carpetas de tu proyecto, corren análisis completos y dejan todo documentado. En mi comunidad <strong>Economista Full Stack</strong> comparto los scripts, plantillas y <em>prompts</em> que uso, y en las sesiones semanales puedes traer tu propio proyecto. Tienes <strong>7 días gratis</strong> para probarla y cancelas cuando quieras.</p>
+<p><a href="https://www.skool.com/economista-full-stack-6510/about" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span>Probar 7 días gratis</span>
+</a></p>
+        </div>
+    </div>
+</div>
+<h2 id="referencias-de-este-flujo">Referencias de este flujo</h2>
+<ul>
+<li>Chang, A. C. y Li, P. (2022). Is economics research replicable? Sixty published papers from thirteen journals say &quot;often not&quot;. <em>Critical Finance Review</em>, 11(1), 185–206.</li>
+<li>Herndon, T., Ash, M. y Pollin, R. (2014). Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff. <em>Cambridge Journal of Economics</em>, 38(2), 257–279.</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->

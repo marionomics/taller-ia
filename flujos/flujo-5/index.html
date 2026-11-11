@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847669003999">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847670623264">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -14,7 +14,7 @@
     <!-- Primary Meta Tags -->
     <title>Flujo 5. Dise&#241;o de instrumento | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
     <meta name="title" content="Flujo 5. Diseño de instrumento | IA aplicada a la investigación · Marionomics">
-    <meta name="description" content="Garbage in, garbage out: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.">
+    <meta name="description" content="¡Datos! ¡Datos! ¡Datos! No puedo hacer ladrillos sin arcilla. — Sherlock Holmes">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ia.marionomics.com/flujos/flujo-5/">
@@ -24,7 +24,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ia.marionomics.com/flujos/flujo-5/">
     <meta property="og:title" content="Flujo 5. Diseño de instrumento | IA aplicada a la investigación · Marionomics">
-    <meta property="og:description" content="Garbage in, garbage out: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.">
+    <meta property="og:description" content="¡Datos! ¡Datos! ¡Datos! No puedo hacer ladrillos sin arcilla. — Sherlock Holmes">
     <meta property="og:site_name" content="Marionomics">
     <meta property="og:locale" content="es_ES">
 
@@ -32,18 +32,18 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://ia.marionomics.com/flujos/flujo-5/">
     <meta name="twitter:title" content="Flujo 5. Diseño de instrumento | IA aplicada a la investigación · Marionomics">
-    <meta name="twitter:description" content="Garbage in, garbage out: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.">
+    <meta name="twitter:description" content="¡Datos! ¡Datos! ¡Datos! No puedo hacer ladrillos sin arcilla. — Sherlock Holmes">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/flujos/flujo-5.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.6.0.847669003999" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.847670623264" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
 
     <style>
     @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
@@ -188,8 +188,41 @@
 
                 <!-- Page content  -->
 <h1 id="flujo-5-diseño-de-instrumento">Flujo 5. Diseño de instrumento</h1>
-<p><em>Garbage in, garbage out</em>: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.</p>
-<div id="flujo-5-diseño-de-instrumento-code-1" class="codeblock-wrapper"><doc-codeblock>
+<blockquote>
+<p><em>¡Datos! ¡Datos! ¡Datos! No puedo hacer ladrillos sin arcilla.</em> — Sherlock Holmes</p>
+</blockquote>
+<p><strong>Para qué sirve:</strong> diseñar un cuestionario que mida lo que dices que mide, desde la teoría hasta las preguntas, y probarlo antes de salir a campo. <strong>Tiempo:</strong> 1 hora para el primer borrador. <strong>Herramienta:</strong> cualquier chat gratuito.</p>
+<h2 id="si-tus-datos-son-basura-tu-tesis-también">Si tus datos son basura, tu tesis también</h2>
+<p>Lo que está en el centro de tu investigación es la solidez de tus argumentos. Pero esos argumentos se apoyan en datos. En inglés lo dicen mejor: <em>garbage in, garbage out</em>. Si entra basura, sale basura, por más sofisticado que sea tu modelo.</p>
+<p>Me ha pasado que me invitan a colaborar en una investigación y he tenido que decir que no. No por el tema, sino porque no sé cómo se obtuvieron los datos, nadie lo documentó y no tengo forma de saber si los resultados son válidos.</p>
+<p>Cuando tú levantas tus propios datos, ese riesgo está en tus manos. Y el lugar donde más se echa a perder es en las preguntas.</p>
+<h2 id="cambiar-una-palabra-cambia-la-respuesta">Cambiar una palabra cambia la respuesta</h2>
+<p>En 1940, un investigador hizo la misma pregunta a dos grupos con una sola palabra distinta. ¿Debería Estados Unidos <em>permitir</em> discursos públicos en contra de la democracia? El 62 % dijo que no se debían permitir. ¿Debería <em>prohibirlos</em>? Solo el 46 % dijo que sí se debían prohibir (Rugg, 1941). Lógicamente es lo mismo, pero la gente no responde como lógico.</p>
+<p>Y hay un problema más grande: la gente responde lo que se ve bien. Si preguntas &quot;¿lee usted con frecuencia?&quot; o &quot;¿su empresa innova?&quot;, vas a obtener más &quot;sí&quot; de los que hay en la realidad. Se llama <strong>sesgo de deseabilidad social</strong>, y está documentado de sobra en encuestas (Tourangeau y Yan, 2007).</p>
+<p>Por eso no puedes preguntarle a un empresario &quot;¿se considera usted innovador?&quot;. Diez personas te darían diez definiciones distintas, todas favorables.</p>
+<h2 id="párate-en-hombros-de-gigantes-la-ia-te-ayuda-con-los-ladrillos">Párate en hombros de gigantes; la IA te ayuda con los ladrillos</h2>
+<p>La forma correcta de medir un concepto abstracto es descomponerlo. Vas a la literatura (el <a href="../flujo-4/">Flujo 4</a>) y de ahí sacas cómo se ha definido y medido. Un concepto se divide en <strong>subíndices</strong>, cada subíndice en <strong>variables</strong> y cada variable en <strong>indicadores</strong>. Cada indicador se convierte en una pregunta.</p>
+<p>Así lo hicimos en un estudio sobre los determinantes de la innovación en las micro y pequeñas empresas del Valle de México, en el que participé como autor. Antes de que existiera ChatGPT, diseñar los reactivos nos tomó semanas.</p>
+<p>Hoy el borrador toma un minuto. La estructura (subíndices y variables) la pones tú, desde la teoría. Los reactivos, que son el trabajo pesado y repetitivo, se los pides a la IA con reglas claras.</p>
+<h2 id="la-ia-escribe-preguntas-que-suenan-bien-y-miden-mal">La IA escribe preguntas que suenan bien y miden mal</h2>
+<p>Si le pides &quot;hazme un cuestionario sobre innovación&quot;, te va a dar preguntas como &quot;¿Considera que su empresa tiene una cultura de innovación?&quot;. Suenan profesionales. Son inútiles: invitan a la respuesta deseable y cada quien las interpreta distinto.</p>
+<p>Los otros tropiezos comunes:</p>
+<ul>
+<li><strong>Preguntar por intenciones o sentimientos</strong> (&quot;¿planea invertir en tecnología?&quot;). Mide buenos deseos, no conducta.</li>
+<li><strong>Meter dos cosas en una pregunta</strong> (&quot;¿su empresa capacita y motiva a sus empleados?&quot;). Si contestan &quot;de acuerdo&quot;, no sabes a cuál de las dos.</li>
+<li><strong>Creer que el borrador es el instrumento.</strong> La validación (expertos, prueba piloto, confiabilidad) sigue siendo tuya.</li>
+</ul>
+<h2 id="una-hora-cuatro-pasos">Una hora, cuatro pasos</h2>
+<doc-steps>
+   <doc-step id="dibuja-tu-índice-desde-la-teoría" step-number="1">
+      <template #title>Dibuja tu índice desde la teoría</template>
+<p>Del centro hacia afuera: concepto → subíndices → variables. Sácalo de la literatura o de instrumentos que ya existen. Por ejemplo: Innovación → Organización → Visión de futuro.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="pide-los-reactivos-con-reglas-estrictas" step-number="2">
+      <template #title>Pide los reactivos con reglas estrictas</template>
+<div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Eres un investigador con amplia experiencia en métodos cuantitativos y diseño de instrumentos.
 El indicador mide {innovación en pequeñas empresas}. Te pasaré subíndices y variables.
 Para cada variable genera 2 o 3 indicadores y una sentencia Likert por indicador.
@@ -197,7 +230,71 @@ Las sentencias deben ser concretas y ancladas en hechos verificables (presupuest
 Ejemplo (subíndice &quot;Organización&quot;, variable &quot;Visión de futuro&quot;): &quot;Estamos desarrollando hoy productos que sabemos que el cliente necesitará, aunque hoy no los pida&quot;.
 Dime cuando estés listo.</code></pre>
 </doc-codeblock></div>
-<p>Lo que diseñar a mano tomaba semanas, el borrador hoy toma un minuto. La validación no: expertos, piloto con personas reales y análisis de confiabilidad siguen siendo tuyos.</p>
+<ul>
+<li><strong>&quot;Hechos verificables&quot;</strong> es tu defensa contra la deseabilidad social: es más difícil exagerar un presupuesto que una opinión.</li>
+<li><strong>&quot;Nada de intenciones futuras&quot;</strong> saca de la mesa los buenos deseos.</li>
+<li><strong>El ejemplo</strong> vale más que cualquier instrucción. Le muestra el nivel de concreción que esperas.</li>
+<li><strong>Escala Likert:</strong> las respuestas van de &quot;totalmente en desacuerdo&quot; a &quot;totalmente de acuerdo&quot;. Te permite medir sin preguntar directamente &quot;¿es usted innovador?&quot;.</li>
+</ul>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="ponlo-a-prueba-con-un-encuestado-difícil" step-number="3">
+      <template #title>Ponlo a prueba con un encuestado difícil</template>
+<p>Antes de molestar a personas reales, usa a la IA para encontrar los problemas obvios:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">Ahora actúa como {dueño de una tienda de abarrotes en Gómez Palacio, con secundaria terminada}.
+Lee cada pregunta del cuestionario y dime:
+- cuáles no entiendes o entenderías de otra forma,
+- cuáles contestarías &quot;de acuerdo&quot; solo para quedar bien,
+- cuáles tienen dos preguntas en una.</code></pre>
+</doc-codeblock></div>
+<p>Esto <strong>no</strong> sustituye la prueba piloto. Cuando se ha probado a la IA como &quot;encuestado sintético&quot;, sus respuestas se alejan bastante de las de personas reales (ver el recuadro del <a href="../flujo-6/">Flujo 6</a>). Sirve para limpiar el borrador, nunca como datos.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="valida-con-humanos" step-number="4">
+      <template #title>Valida con humanos</template>
+<p>Pásalo a dos o tres expertos en el tema, haz una prueba piloto con personas parecidas a tu muestra y revisa la confiabilidad de tus escalas (por ejemplo, con el alfa de Cronbach). Si quieres convertir tu cuestionario en un formulario en línea sin capturar todo a mano, ve al <a href="../flujo-7/">Flujo 7</a>.</p>
+   </doc-step>
+</doc-steps>
+<h2 id="sí-pero">&quot;Sí, pero…&quot;</h2>
+<p><strong>&quot;¿No hay un instrumento que ya exista?&quot;</strong> Muchas veces sí, y es mejor usarlo: ya está validado y puedes comparar tus resultados. Búscalo primero en la literatura. Diseña uno propio solo si no existe o no se adapta a tu contexto.</p>
+<p><strong>&quot;¿Cuántas preguntas por variable?&quot;</strong> Al menos dos. Con una sola no puedes saber si la pregunta mide lo que crees o si la gente la entendió mal.</p>
+<p><strong>&quot;¿Y si uso datos que ya existen, como los de INEGI?&quot;</strong> Entonces no diseñas instrumento, pero tienes la misma obligación: conocer cómo se levantaron como si lo hubieras hecho tú. Eso está en el paso 0 del <a href="../flujo-6/">Flujo 6</a>.</p>
+<h2 id="míralo-funcionar">Míralo funcionar</h2>
+<p>Con el ejemplo de innovación: subíndice &quot;Organización&quot;, variable &quot;Visión de futuro&quot;.</p>
+<p>Lo que la IA suele proponer sin reglas: <em>&quot;En mi empresa se valora la innovación.&quot;</em> Todos van a contestar que sí.</p>
+<p>Con el <em>prompt</em> del paso 2 salen cosas como: <em>&quot;En el último año destinamos parte del presupuesto a probar un producto o servicio nuevo.&quot;</em> Eso es verificable. Un empresario puede exagerar un poco, pero no puede inventar un presupuesto que no tiene sin darse cuenta de que miente.</p>
+<p>Y en la prueba con el encuestado difícil, la IA señala que &quot;producto o servicio nuevo&quot; es ambiguo: ¿nuevo para el mercado o nuevo para la tienda? Ese es justo el tipo de detalle que un piloto te habría dicho, pero ya lo tienes antes de imprimir.</p>
+<h2 id="tu-turno">Tu turno</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>1 hora, una variable bien medida</h5>
+<ol>
+<li>Elige un concepto de tu tesis y baja hasta una sola variable.</li>
+<li>Genera sus reactivos con el <em>prompt</em> del paso 2.</li>
+<li>Pásalos por el encuestado difícil del paso 3.</li>
+<li>Marca cuáles sobreviven. Esos son los que llevas al piloto.</li>
+</ol>
+        </div>
+    </div>
+</div>
+<h2 id="referencias-de-este-flujo">Referencias de este flujo</h2>
+<ul>
+<li>Rugg, D. (1941). Experiments in wording questions: II. <em>Public Opinion Quarterly</em>, 5(1), 91–92.</li>
+<li>Tourangeau, R. y Yan, T. (2007). Sensitive questions in surveys. <em>Psychological Bulletin</em>, 133(5), 859–883.</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->

@@ -4,6 +4,7 @@
 
 - [IA aplicada a la investigación científica](https://ia.marionomics.com/index.md): IA aplicada a la investigación científica
 - [Cómo funciona la IA (lo mínimo para usarla bien)](https://ia.marionomics.com/como-funciona-la-ia.md): ChatGPT, Gemini y Claude son modelos de lenguaje: modelos estadísticos entrenados con casi todo lo que la humanidad ha escrito, que predicen cuál es la siguiente palabra más probable.
+- [Qué IA usar (y qué puedes hacer gratis)](https://ia.marionomics.com/que-ia-usar.md): "¿Cuál es la mejor IA?" es la pregunta que más me hacen en los talleres. La respuesta corta te va a decepcionar: cualquiera de las tres grandes. La respuesta larga es más útil, porque lo que de verdad cambia tus resultados no es la marca, sino qué modelo usas y en qué modo.
 - [Por qué seguimos investigando](https://ia.marionomics.com/por-que-investigamos.md): La IA ya supera a la mayoría de nosotros en muchas tareas de investigación. Aun así, no recomiendo delegarle el pensar. Estas son las cuatro ideas que sostienen todo el taller.
 - [Qué es recomendable y qué no](https://ia.marionomics.com/que-es-recomendable.md): Antes de usar en tu investigación algo hecho con IA, te recomiendo pasarlo por dos pruebas. Lo demás se deriva de ellas.
 - [Manos a la obra: ocho flujos de trabajo](https://ia.marionomics.com/flujos/index.md): Un flujo de trabajo es una receta paso a paso para resolver una tarea concreta de tu investigación: qué preparas tú antes, qué prompt le das a la IA y cómo revisas lo que te entrega.
@@ -16,17 +17,16 @@
 ## Manos a la obra
 
 - [Flujo 1. Vacía tus ideas a la IA](https://ia.marionomics.com/flujos/flujo-1.md): Para qué sirve: pasar de "tengo algo en la cabeza, pero no sé qué es" a un borrador ordenado de tu problema de investigación, escrito con tus palabras. Tiempo: 20 minutos.
-- [Flujo 2. La máquina de generación infinita de ideas de investigación](https://ia.marionomics.com/flujos/flujo-2.md): Dos mitos: que necesitas un tema totalmente novedoso y que solo los genios creativos investigan. La ciencia avanza en pasos incrementales, y la pasión se crea trabajando.
-- [Flujo 3. Un protocolo de cinco preguntas](https://ia.marionomics.com/flujos/flujo-3.md): El plan que me enseñó mi profesor de metodología del doctorado cabe en una cuartilla:
-- [Flujo 4. Bibliografía y marco teórico a prueba de balas](https://ia.marionomics.com/flujos/flujo-4.md): Si le pides "bibliografía sobre mi tema", en el mejor caso te dará una lista genérica; en el peor, inventada. Para una buena lista necesitas tres cosas: el objetivo de tu investigación, tu argumento y sus posibles contraargumentos.
-- [Flujo 5. Diseño de instrumento](https://ia.marionomics.com/flujos/flujo-5.md): Garbage in, garbage out: si no conoces cómo se obtuvieron tus datos, nada de lo que concluyas sirve. Si diseñas tu propio instrumento, párate en hombros de gigantes: del estado del arte sacas subíndices y variables; la IA te ayuda con los reactivos.
-- [Flujo 6. Datos y econometría con agentes](https://ia.marionomics.com/flujos/flujo-6.md): Un agente (Claude Code, Codex, Gemini CLI, o el modo de análisis de datos de cualquier chat) puede descargar datos, limpiarlos, correr la regresión, hacer las gráficas y corregir sus propios errores.
-- [Flujo 7. Artefactos: formularios, tableros y laboratorios](https://ia.marionomics.com/flujos/flujo-7.md): La IA ya no solo da texto: construye herramientas. Algunos ejemplos que he hecho con IA:
-- [Flujo 8. La IA como revisor, no como autor](https://ia.marionomics.com/flujos/flujo-8.md): Como te va a dar la razón por default, pídele explícitamente que te contradiga.
+- [Flujo 2. La máquina de generación infinita de ideas de investigación](https://ia.marionomics.com/flujos/flujo-2.md): Para qué sirve: generar ideas de investigación que encajen con tu vida, tus habilidades y tus contactos, y acotar una hasta tener un título de tesis. Tiempo: 30 minutos.
+- [Flujo 3. Un protocolo de cinco preguntas](https://ia.marionomics.com/flujos/flujo-3.md): Para qué sirve: convertir tu idea en un plan de investigación de una cuartilla, claro y defendible, que te diga qué hacer cada vez que te sientes a trabajar.
+- [Flujo 4. Bibliografía y marco teórico a prueba de balas](https://ia.marionomics.com/flujos/flujo-4.md): Los hombres prácticos, que se creen exentos de cualquier influencia intelectual, son usualmente esclavos de algún economista difunto. — John Maynard Keynes
+- [Flujo 5. Diseño de instrumento](https://ia.marionomics.com/flujos/flujo-5.md): ¡Datos! ¡Datos! ¡Datos! No puedo hacer ladrillos sin arcilla. — Sherlock Holmes
+- [Flujo 6. Datos y econometría con agentes](https://ia.marionomics.com/flujos/flujo-6.md): Para qué sirve: analizar tus datos con ayuda de la IA sin perder el control: que ella programe y tú especifiques y revises. Tiempo: 1 hora para el ejercicio; tu análisis real, lo que tome.
+- [Flujo 7. Artefactos: formularios, tableros y laboratorios](https://ia.marionomics.com/flujos/flujo-7.md): Para qué sirve: construir pequeñas herramientas para tu investigación (una calculadora, un formulario, un tablero de resultados) sin saber programar, y saber revisarlas antes de confiar en ellas.
+- [Flujo 8. La IA como revisor, no como autor](https://ia.marionomics.com/flujos/flujo-8.md): Para qué sirve: conseguir crítica honesta de tu trabajo antes de que llegue a tu comité o a una revista, sin que la IA te lo reescriba. Tiempo: 30 minutos por revisión.
 
 ## Bonus
 
-- [¿Cuál es la mejor IA para mi investigación?](https://ia.marionomics.com/bonus/cual-es-la-mejor-ia.md): Don't you call me a mindless philosopher, you overweight glob of grease — C-3PO a R2-D2
 - [Aprende lo que quieras, como tú quieras](https://ia.marionomics.com/bonus/aprende-lo-que-quieras.md): Neo: I know kung fu. Morpheus: Show me. — The Matrix (1999)
 - [Imágenes estilo Marionomics (para divulgación)](https://ia.marionomics.com/bonus/imagenes.md): Todas las ilustraciones de mi newsletter las hago con IA, y lo digo abiertamente. Para tu tesis, no te lo recomiendo: una imagen generada no aporta evidencia y le resta credibilidad.
 - [Plantilla de declaración de uso de IA](https://ia.marionomics.com/bonus/declaracion-de-uso.md): Inclúyela al final de tu tesis, artículo o trabajo:

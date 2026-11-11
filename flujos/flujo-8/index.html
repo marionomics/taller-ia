@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847669003999">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847670623264">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -14,7 +14,7 @@
     <!-- Primary Meta Tags -->
     <title>Flujo 8. La IA como revisor, no como autor | IA aplicada a la investigaci&#243;n &#183; Marionomics</title>
     <meta name="title" content="Flujo 8. La IA como revisor, no como autor | IA aplicada a la investigación · Marionomics">
-    <meta name="description" content="Como te va a dar la razón por default, pídele explícitamente que te contradiga.">
+    <meta name="description" content="Para qué sirve: conseguir crítica honesta de tu trabajo antes de que llegue a tu comité o a una revista, sin que la IA te lo reescriba. Tiempo: 30 minutos por revisión.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ia.marionomics.com/flujos/flujo-8/">
@@ -24,7 +24,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ia.marionomics.com/flujos/flujo-8/">
     <meta property="og:title" content="Flujo 8. La IA como revisor, no como autor | IA aplicada a la investigación · Marionomics">
-    <meta property="og:description" content="Como te va a dar la razón por default, pídele explícitamente que te contradiga.">
+    <meta property="og:description" content="Para qué sirve: conseguir crítica honesta de tu trabajo antes de que llegue a tu comité o a una revista, sin que la IA te lo reescriba. Tiempo: 30 minutos por revisión.">
     <meta property="og:site_name" content="Marionomics">
     <meta property="og:locale" content="es_ES">
 
@@ -32,18 +32,18 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://ia.marionomics.com/flujos/flujo-8/">
     <meta name="twitter:title" content="Flujo 8. La IA como revisor, no como autor | IA aplicada a la investigación · Marionomics">
-    <meta name="twitter:description" content="Como te va a dar la razón por default, pídele explícitamente que te contradiga.">
+    <meta name="twitter:description" content="Para qué sirve: conseguir crítica honesta de tu trabajo antes de que llegue a tu comité o a una revista, sin que la IA te lo reescriba. Tiempo: 30 minutos por revisión.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://ia.marionomics.com/flujos/flujo-8.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.6.0.847669003999" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.847670623264" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847669003999" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847670623264" data-turbo-eval="false" defer></script>
 
     <style>
     @font-face { font-family: "CMU Serif"; src: url("/static/fonts/cmu-serif-500-roman.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
@@ -188,17 +188,45 @@
 
                 <!-- Page content  -->
 <h1 id="flujo-8-la-ia-como-revisor-no-como-autor">Flujo 8. La IA como revisor, no como autor</h1>
-<p>Como te va a dar la razón por default, pídele explícitamente que te contradiga.</p>
-<p><strong>Revisor adversarial</strong> (para tu protocolo, un capítulo o tu artículo antes de enviarlo):</p>
-<div id="flujo-8-la-ia-como-revisor-no-como-autor-code-1" class="codeblock-wrapper"><doc-codeblock>
+<p><strong>Para qué sirve:</strong> conseguir crítica honesta de tu trabajo antes de que llegue a tu comité o a una revista, sin que la IA te lo reescriba. <strong>Tiempo:</strong> 30 minutos por revisión. <strong>Herramienta:</strong> cualquier chat gratuito; si tiene modo de razonamiento (&quot;pensar&quot;), actívalo.</p>
+<h2 id="pregúntale-a-la-ia-qué-opina-de-tu-trabajo-y-te-va-a-decir-que-está-excelente">Pregúntale a la IA qué opina de tu trabajo y te va a decir que está excelente</h2>
+<p>Haz la prueba. Pega tu protocolo y pregunta &quot;¿qué opinas?&quot;. Lo más probable es que empiece con algo como &quot;¡Es una propuesta muy interesante y bien estructurada!&quot; y luego te dé tres sugerencias suaves.</p>
+<p>No es que tu trabajo sea excelente. Es que la IA está entrenada para agradarte. Las personas que calificaron sus respuestas durante el entrenamiento preferían las que les daban la razón, y el modelo aprendió a darla. Se llama <strong>complacencia</strong> (en inglés, <em>sycophancy</em>), y está documentada en todos los modelos grandes: hasta cambian una respuesta correcta por una incorrecta si el usuario insiste (Sharma et al., 2024).</p>
+<p>En investigación eso es veneno. Necesitas a alguien que te diga dónde se cae tu argumento antes de que te lo diga tu sinodal.</p>
+<h2 id="bien-pedida-la-crítica-de-la-ia-se-parece-a-la-de-un-revisor-humano">Bien pedida, la crítica de la IA se parece a la de un revisor humano</h2>
+<p>La buena noticia es que, cuando le pides crítica de forma explícita, la IA es sorprendentemente útil.</p>
+<p>En un estudio con miles de artículos, los comentarios que generaba GPT-4 coincidían con los de los revisores humanos más o menos tanto como coinciden dos revisores humanos entre sí. Y de 308 investigadores que la probaron con sus propios artículos, más de la mitad dijo que la retroalimentación les había sido útil o muy útil (Liang et al., 2024).</p>
+<p>No sustituye a tu asesor. Pero es un primer filtro gratis, disponible a las tres de la mañana, que no se cansa de leer tu capítulo por quinta vez.</p>
+<h2 id="que-la-ia-revise-no-es-lo-mismo-que-la-ia-escriba">Que la IA revise no es lo mismo que la IA escriba</h2>
+<p>Hay una tentación natural: si ya encontró los problemas, ¿por qué no dejar que los corrija?</p>
+<p>Porque el texto es la parte de la tesis donde ocurre el pensamiento. Escribir te obliga a procesar la información de otra forma. Puedes creer que entiendes un tema, pero no es sino hasta que lo pones por escrito que descubres si es verdad.</p>
+<p>Hay evidencia preliminar de lo que pasa cuando delegamos la escritura. En un experimento del MIT, quienes escribieron ensayos con ayuda de ChatGPT mostraron menos actividad cerebral relacionada con el esfuerzo y, minutos después, la mayoría no pudo citar una sola frase de su propio ensayo (Kosmyna et al., 2025). Es un estudio pequeño y todavía sin revisión de pares, pero apunta a algo que cualquier profesor reconoce: si no lo escribiste, no lo aprendiste.</p>
+<p>Y hay otro costo. Los profesores ya distinguimos un texto hecho por IA. En cuanto lo notamos, dejamos de leer con atención. ¿Para qué escribir algo que nadie va a leer?</p>
+<p>Por eso todos los <em>prompts</em> de este flujo terminan igual: <strong>no reescribas nada.</strong></p>
+<h2 id="treinta-minutos-tres-revisores">Treinta minutos, tres revisores</h2>
+<doc-steps>
+   <doc-step id="el-revisor-adversarial" step-number="1">
+      <template #title>El revisor adversarial</template>
+<p>Para tu protocolo, un capítulo o un artículo antes de enviarlo:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Actúa como el revisor más exigente de {revista o comité}. Tu trabajo es encontrar las razones para rechazar este trabajo, no para aceptarlo.
 1. Enumera los 5 problemas más graves, ordenados por gravedad (datos, método, identificación, argumento, coherencia).
 2. Para cada uno, la evidencia en el texto y la pregunta que haría el comité.
 3. Señala dónde afirmo más de lo que mi evidencia sostiene.
 No me felicites ni reescribas nada.</code></pre>
 </doc-codeblock></div>
-<p><strong>Revisor de estilo que no reescribe:</strong></p>
-<div id="flujo-8-la-ia-como-revisor-no-como-autor-code-2" class="codeblock-wrapper"><doc-codeblock>
+<ul>
+<li><strong>&quot;Encontrar las razones para rechazar&quot;</strong> invierte la complacencia: ahora darte gusto es encontrar problemas.</li>
+<li><strong>&quot;Ordenados por gravedad&quot;</strong> evita que te pierdas en comas mientras se cae tu identificación.</li>
+<li><strong>&quot;Dónde afirmo más de lo que mi evidencia sostiene&quot;</strong> es la crítica más valiosa en economía: confundir &quot;se mueven juntos&quot; con &quot;uno causa el otro&quot;.</li>
+<li><strong>&quot;No me felicites&quot;</strong> te ahorra el párrafo de cortesía.</li>
+</ul>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="el-revisor-de-estilo-que-no-reescribe" step-number="2">
+      <template #title>El revisor de estilo que no reescribe</template>
+<div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Revisa mi texto y señala, sin reescribir:
 - Oraciones de más de 30 palabras.
 - Afirmaciones sin fuente.
@@ -206,7 +234,60 @@ No me felicites ni reescribas nada.</code></pre>
 - Párrafos donde no queda clara la idea principal.
 Dame la ubicación y el motivo. Yo hago los cambios.</code></pre>
 </doc-codeblock></div>
-<p><strong>Contra la complacencia:</strong> presenta dos hipótesis sin decir cuál es la tuya y pide la evidencia más fuerte en contra de cada una.</p>
+<p>Te da un mapa de dónde trabajar, no un texto nuevo. Los cambios los haces tú, y en el camino aprendes a escribir mejor.</p>
+   </doc-step>
+</doc-steps>
+<doc-steps>
+   <doc-step id="la-prueba-a-ciegas" step-number="3">
+      <template #title>La prueba a ciegas</template>
+<p>Para saber si la IA te está dando la razón por cortesía, no le digas cuál es tu postura:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">Hay dos hipótesis sobre {fenómeno}:
+A: {tu hipótesis}
+B: {la hipótesis rival}
+Dame la evidencia más fuerte a favor y en contra de cada una. No me digas cuál prefieres.</code></pre>
+</doc-codeblock></div>
+<p>Si la evidencia contra tu hipótesis es más fuerte de lo que pensabas, mejor enterarte hoy.</p>
+   </doc-step>
+</doc-steps>
+<h2 id="sí-pero">&quot;Sí, pero…&quot;</h2>
+<p><strong>&quot;¿Y si me equivoco al corregir y la IA lo habría hecho mejor?&quot;</strong> Probablemente lo habría hecho más pulido. Pero sonaría a IA, no sabrías defenderlo y no habrías aprendido nada. Una tesis con tu voz y algunos errores vale más que una tesis impecable que no es tuya.</p>
+<p><strong>&quot;Me hizo una crítica que no comparto.&quot;</strong> No tienes que aceptarla. La IA también se equivoca, y tú conoces tu tema mejor. Lo importante es que puedas explicar por qué no aplica; esa explicación es la respuesta que vas a dar en tu examen.</p>
+<p><strong>&quot;¿Puedo pedirle que me corrija solo la ortografía?&quot;</strong> Sí. Corregir ortografía y gramática no cambia tus ideas. Pídele que te señale los errores en una lista para que tú los corrijas, y así no te reescribe el texto de paso.</p>
+<h2 id="míralo-funcionar">Míralo funcionar</h2>
+<p>Toma el problema del <a href="../flujo-3/">Flujo 3</a>: el gasto del municipio de Chalchihuites en sus fiestas patronales.</p>
+<p>Con &quot;¿qué opinas?&quot;, la respuesta típica elogia la relevancia local del tema y sugiere &quot;ampliar el marco teórico&quot;. No te dice nada que puedas usar.</p>
+<p>Con el revisor adversarial, la conversación cambia. Te pregunta cómo vas a saber qué parte del gasto se queda en el municipio si no tienes datos de los proveedores. Te señala que &quot;derrama económica&quot; es un término que suele inflarse si no descuentas lo que la gente habría gastado de todos modos. Y te pregunta contra qué vas a comparar: ¿otro municipio sin fiesta?, ¿otros meses del año?</p>
+<p>Cada una de esas preguntas es una pregunta que tu comité te iba a hacer. Ahora tienes tiempo de contestarla.</p>
+<h2 id="tu-turno">Tu turno</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-success" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>30 minutos, tus cinco problemas más graves</h5>
+<ol>
+<li>Pega tu protocolo del <a href="../flujo-3/">Flujo 3</a> con el revisor adversarial.</li>
+<li>Elige el problema más grave y escribe tú cómo lo resolverías, en un párrafo.</li>
+<li>Haz la prueba a ciegas con tu hipótesis y la rival más fuerte.</li>
+</ol>
+<p>Si la IA no encontró nada grave, pídele que lo intente otra vez &quot;como si tu reputación dependiera de encontrar un error&quot;. Siempre hay algo.</p>
+        </div>
+    </div>
+</div>
+<h2 id="referencias-de-este-flujo">Referencias de este flujo</h2>
+<ul>
+<li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., et al. (2025). Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task. <em>arXiv</em>, 2506.08872.</li>
+<li>Liang, W., Zhang, Y., Cao, H., et al. (2024). Can large language models provide useful feedback on research papers? A large-scale empirical analysis. <em>NEJM AI</em>, 1(8).</li>
+<li>Sharma, M., Tong, M., Korbak, T., et al. (2024). Towards understanding sycophancy in language models. <em>International Conference on Learning Representations (ICLR)</em>.</li>
+</ul>
 
                 
                 <!-- Required only on API pages -->
