@@ -4,7 +4,7 @@ order: -100
 icon: mail
 visibility: hidden
 ---
-# Únete a Marionomics
+# El Mapa del Economista Consultor
 
 <div id="mx-join" data-list="fullstack">
   <div class="mx-msg" aria-live="polite"></div>
@@ -14,4 +14,6 @@ visibility: hidden
   </form>
 </div>
 
-Gracias por llegar hasta aquí. Cada semana comparto ideas, herramientas y econometría aplicada para quienes hacen investigación en español.
+En los próximos 5 días te llega un correo diario para que diseñes tu oferta de consultoría: a quién le vendes, qué problema le resuelves, cómo y por cuánto.
+
+Revisa tu bandeja de entrada (y la de promociones): el primer correo ya va en camino.
