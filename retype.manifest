@@ -1,6 +1,6 @@
 {
   "version": "4.6.0",
-  "created": "2026-11-11T00:03:19Z",
+  "created": "2026-11-11T00:28:12Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -411,6 +411,9 @@
     },
     {
       "path": "static/datos/salarios-simulados.csv"
+    },
+    {
+      "path": "static/descargas/presentacion-taller-ia-investigacion.pdf"
     },
     {
       "path": "static/fonts/cmu-serif-500-italic.woff2"
