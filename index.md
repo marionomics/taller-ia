@@ -8,6 +8,8 @@ En este taller vas a usar la IA en tu propia investigación. Primero hay cuatro 
 La IA hace los pasos intermedios (buscar, ordenar, programar, revisar); tú piensas y escribes.
 !!!
 
+[!button variant="secondary" icon="download" text="Descarga la presentación (PDF)"](/static/descargas/presentacion-taller-ia-investigacion.pdf)
+
 ## La ruta del taller
 
 >>> Cómo funciona la IA
